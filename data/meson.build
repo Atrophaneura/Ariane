@@ -1,3 +1,7 @@
+gnome = import('gnome')
+
+subdir('ui')
+
 desktop_file = i18n.merge_file(
   input: 'com.github.DesktopCreatorTeam.DesktopCreator.desktop.in',
   output: 'com.github.DesktopCreatorTeam.DesktopCreator.desktop',
@@ -14,9 +18,28 @@ if desktop_utils.found()
   )
 endif
 
+gnome.compile_resources('desktopcreator',
+  'desktopcreator.gresource.xml',
+  gresource_bundle: true,
+  source_dir: meson.current_build_dir(),
+  install: true,
+  install_dir: PKGDATA_DIR,
+  dependencies: blueprints
+)
+
 appstream_file = i18n.merge_file(
-  input: 'com.github.DesktopCreatorTeam.DesktopCreator.appdata.xml.in',
-  output: 'com.github.DesktopCreatorTeam.DesktopCreator.appdata.xml',
+  input: configure_file(
+    input: '@0@.appdata.xml.in.in'.format(PROJECT_RDNN_NAME),
+    output: '@BASENAME@',
+    configuration: configuration_data({
+      'APP_ID': APPLICATION_ID,
+      'PROJECT_URL': PROJECT_URL,
+      'BUGTRACKER_URL': BUGTRACKER_URL,
+      'HELP_URL': HELP_URL,
+      'TRANSLATE_URL': TRANSLATE_URL
+    })
+  ),
+  output: '@0@.appdata.xml'.format(APPLICATION_ID),
   po_dir: '../po',
   install: true,
   install_dir: join_paths(get_option('datadir'), 'appdata')

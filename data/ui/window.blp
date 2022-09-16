@@ -1,0 +1,87 @@
+using Gtk 4.0;
+using Adw 1;
+
+template DesktopcreatorWindow : Adw.ApplicationWindow {
+  title: _("Desktop Creator");
+  default-width: 1000;
+  default-height: 700;
+
+  Adw.ToastOverlay toast_overlay {
+    Adw.Leaflet leaflet {
+      can-navigate-back: true;
+      can-unfold: false;
+
+      Gtk.Box main_view {
+        orientation: vertical;
+
+        Adw.HeaderBar titlebar {
+          centering-policy: strict;
+
+
+          [title]
+          Adw.ViewSwitcherTitle title {
+            stack: view_stack;
+          }
+
+          [end]
+          Gtk.MenuButton {
+            icon-name: "open-menu-symbolic";
+            menu-model: primary_menu;
+          }
+
+          
+
+
+        }
+
+        Gtk.Box {
+          orientation: vertical;
+
+          Adw.ViewStack view_stack {
+            vexpand: true;
+            hexpand: true;
+
+            Adw.ViewStackPage {
+              name: "edit";
+              title: _("Edit");
+              icon-name: "settings-symbolic";
+
+              child: Adw.PreferencesPage content { };
+
+            }
+
+            Adw.ViewStackPage {
+              name: "preview";
+              title: _("Preview");
+              icon-name: "preview-symbolic";
+
+              child: Adw.PreferencesPage content_preview { };
+            }
+          }
+
+          Adw.ViewSwitcherBar {
+            stack: view_stack;
+            reveal: bind title.title-visible;
+          }
+        }
+      }
+    }
+  }
+}
+
+menu primary_menu {
+  section {
+    item {
+      label: _("Preferences");
+      action: "app.preferences";
+    }
+    item {
+      label: _("Keyboard Shortcuts");
+      action: "win.show-help-overlay";
+    }
+    item {
+      label: _("About Desktop Creator");
+      action: "app.about";
+     }
+  }
+}
