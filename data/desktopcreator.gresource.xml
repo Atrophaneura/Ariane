@@ -2,6 +2,6 @@
 <gresources>
   <gresource prefix="/com/github/DesktopCreatorTeam/DesktopCreator">
     <file preprocess="xml-stripblanks">ui/window.ui</file>
-    <file preprocess="xml-stripblanks">ui/gtk/help-overlay.ui</file>
+    <file preprocess="xml-stripblanks" alias="ui/gtk/help-overlay.ui">ui/help-overlay.ui</file>
   </gresource>
 </gresources>

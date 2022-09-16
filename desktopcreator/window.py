@@ -15,13 +15,13 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-from gi.repository import Gtk
+from gi.repository import Gtk, Adw
 
 from .constants import rootdir
 
 
-@Gtk.Template(resource_path=f'{rootdir}/DesktopCreator/window.ui')
-class DesktopcreatorWindow(Gtk.ApplicationWindow):
+@Gtk.Template(resource_path=f'{rootdir}/ui/window.ui')
+class DesktopcreatorWindow(Adw.ApplicationWindow):
     __gtype_name__ = 'DesktopcreatorWindow'
 
     label = Gtk.Template.Child()

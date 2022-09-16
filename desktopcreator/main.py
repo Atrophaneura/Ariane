@@ -80,7 +80,7 @@ class DesktopcreatorApplication(Adw.Application):
             self.set_accels_for_action(f"app.{name}", shortcuts)
 
 
-def main(version):
+def main():
     """The application's entry point."""
     app = DesktopcreatorApplication()
     return app.run(sys.argv)

@@ -21,24 +21,49 @@ import os
 import sys
 import signal
 import locale
+import shutil
 import gettext
 
-VERSION = '@VERSION@'
-pkgdatadir = '@pkgdatadir@'
-localedir = '@localedir@'
+is_local = @local_build@
 
-sys.path.insert(1, pkgdatadir)
+if is_local:
+    # In the local use case, use desktopcreator module from the sourcetree
+    sys.path.insert(1, '@PYTHON@')
+
+    # In the local use case the installed schemas go in <builddir>/data
+    os.environ["XDG_DATA_DIRS"] = '@SCHEMAS_DIR@:' + os.environ.get("XDG_DATA_DIRS", "")
+
+    shutil.copyfile(
+        os.path.join('@BUILD_DIR@', "desktopcreator", "constants.py"),
+        os.path.join('@SOURCE_DIR@', "desktopcreator", "constants.py")
+    )
+
+pkgdatadir = '@PKGDATA_DIR@'
+localedir = '@LOCALE_DIR@'
+
+sys.dont_write_bytecode = True
+
 signal.signal(signal.SIGINT, signal.SIG_DFL)
+gettext.install('desktopcreator', localedir)
+
 locale.bindtextdomain('desktopcreator', localedir)
 locale.textdomain('desktopcreator')
-gettext.install('desktopcreator', localedir)
+
 
 if __name__ == '__main__':
     import gi
 
+    gi.require_version('Gtk', '4.0')
+    gi.require_version('Adw', '1')
+    gi.require_version('Xdp', '1.0')
+    gi.require_version('XdpGtk4', '1.0')
+
     from gi.repository import Gio
-    resource = Gio.Resource.load(os.path.join(pkgdatadir, 'desktopcreator.gresource'))
-    resource._register()
+    resource = Gio.Resource.load(
+        os.path.join(pkgdatadir, 'desktopcreator.gresource'))
+    Gio.Resource._register(resource)
+
+    sys.path.insert(1, "/usr/local/lib/python3.10/site-packages")
 
     from desktopcreator import main
-    sys.exit(main.main(VERSION))
+    sys.exit(main.main())
