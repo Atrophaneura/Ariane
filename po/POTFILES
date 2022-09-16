@@ -1,0 +1,7 @@
+data/com.github.DesktopCreatorTeam.DesktopCreator.desktop.in
+data/com.github.DesktopCreatorTeam.DesktopCreator.appdata.xml.in
+data/com.github.DesktopCreatorTeam.DesktopCreator.gschema.xml
+src/window.ui
+src/main.py
+src/window.py
+

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="desktopcreator">
+	<schema id="com.github.DesktopCreatorTeam.DesktopCreator" path="/com/github/DesktopCreatorTeam/DesktopCreator/">
+	</schema>
+</schemalist>
