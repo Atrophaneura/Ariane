@@ -39,6 +39,7 @@ desktopcreator_sources = [
   '__init__.py',
   'main.py',
   'window.py',
+  'dialogs.py',
 ]
 
 PY_INSTALLDIR.install_sources(desktopcreator_sources, subdir: 'desktopcreator')

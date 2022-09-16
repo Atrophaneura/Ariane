@@ -30,14 +30,3 @@ class DesktopcreatorWindow(Adw.ApplicationWindow):
         super().__init__(**kwargs)
 
 
-class AboutDialog(Gtk.AboutDialog):
-
-    def __init__(self, parent):
-        Gtk.AboutDialog.__init__(self)
-        self.props.program_name = 'desktopcreator'
-        self.props.version = "0.1.0"
-        self.props.authors = ['0xMRTT']
-        self.props.copyright = '2022 0xMRTT'
-        self.props.logo_icon_name = 'com.github.DesktopCreatorTeam.DesktopCreator'
-        self.props.modal = True
-        self.set_transient_for(parent)

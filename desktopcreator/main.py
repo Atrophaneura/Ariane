@@ -22,7 +22,8 @@ gi.require_version('Gtk', '4.0')
 gi.require_version('Adw', '1')
 
 from gi.repository import Gtk, Gio, Adw
-from .window import DesktopcreatorWindow, AboutDialog
+from .window import DesktopcreatorWindow
+from .dialogs import AboutDialog
 
 from .constants import (
     rootdir,
