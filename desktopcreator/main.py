@@ -15,16 +15,6 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-import sys
-import gi
-
-gi.require_version('Gtk', '4.0')
-gi.require_version('Adw', '1')
-
-from gi.repository import Gtk, Gio, Adw
-from .window import DesktopcreatorWindow
-from .dialogs import AboutDialog
-
 from .constants import (
     rootdir,
     app_id,
@@ -34,6 +24,14 @@ from .constants import (
     help_url,
     project_url,
 )
+from .window import DesktopcreatorWindow
+from gi.repository import Gtk, Gio, Adw
+import sys
+import gi
+
+gi.require_version('Gtk', '4.0')
+gi.require_version('Adw', '1')
+
 
 class DesktopcreatorApplication(Adw.Application):
     """The main application singleton class."""
@@ -42,7 +40,7 @@ class DesktopcreatorApplication(Adw.Application):
         super().__init__(application_id=app_id,
                          flags=Gio.ApplicationFlags.FLAGS_NONE)
         self.create_action('quit', self.quit, ['<primary>q'])
-        self.create_action('about', self.on_about_action)
+        self.create_action('about', self.show_about_window)
         self.create_action('preferences', self.on_preferences_action)
 
     def do_activate(self):
@@ -56,9 +54,34 @@ class DesktopcreatorApplication(Adw.Application):
             win = DesktopcreatorWindow(application=self)
         win.present()
 
-    def on_about_action(self, widget, _):
+    def show_about_window(self, *_args):
         """Callback for the app.about action."""
-        about = AboutDialog(self.props.active_window)
+        about = Adw.AboutWindow(
+            transient_for=self.props.active_window,
+            application_name=_("Desktop Creator"),
+            application_icon=app_id,
+            developer_name=_("Desktop Creator Team"),
+            website=project_url,
+            support_url=help_url,
+            issue_url=bugtracker_url,
+            developers=["0xMRTT https://github.com/0xMRTT",],
+            artists=["Angelo Verlain  https://gitlab.gnome.org/vixalien"],
+            designers=["Angelo Verlain  https://gitlab.gnome.org/vixalien"],
+            # Translators: This is a place to put your credits (formats: "Name
+            # https://example.com" or "Name <email@example.com>", no quotes)
+            # and is not meant to be translated literally.
+            # TODO: Automate this process using CI, because not everyone knows
+            # about this
+            translator_credits=["0xMRTT https://github.com/0xMRTT"],
+            copyright="© 2022 Desktop Creator Team",
+            license_type=Gtk.License.GPL_3_0,
+            version=version,
+            release_notes_version=rel_ver,
+            # release_notes=_(
+            #     """
+            # """
+            # )
+        )
         about.present()
 
     def on_preferences_action(self, widget, _):
