@@ -20,7 +20,7 @@ jobs:
     steps:
     - uses: actions/stale@v5
       with:
-        epo-token: ${{ secrets.ACCESS_TOKEN }}
+        repo-token: ${{ secrets.ACCESS_TOKEN }}
         stale-issue-message: 'There is no activity from long time . Marked as stale'
         stale-pr-message: 'There is no activity from long time . Marked as stale'
         stale-issue-label: 'stale'
