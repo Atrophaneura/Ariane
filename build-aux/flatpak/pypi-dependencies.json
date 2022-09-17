@@ -1,0 +1,14 @@
+{
+    "name": "python3-desktop-parser",
+    "buildsystem": "simple",
+    "build-commands": [
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"desktop-parser\" --no-build-isolation"
+    ],
+    "sources": [
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/66/5c/58a1a82f51846deac391eae7063708142a9e900acb1edaf601e6921a045c/desktop_parser-0.1.0-py3-none-any.whl",
+            "sha256": "e049f1614d10c44bc842e267d1b26360dcb114cac760fd022e54d22c2295b9b6"
+        }
+    ]
+}
