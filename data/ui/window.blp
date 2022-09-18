@@ -91,15 +91,24 @@ template DesktopcreatorWindow : Adw.ApplicationWindow {
                       strings [_("Application"), _("Link"), _("Directory")]
                     };
                   }
-                  
+
+                  Adw.EntryRow generic_name {
+                    title: _("Generic Name");
+
+                    hexpand: true;
+                  }
+
                   Adw.EntryRow name {
                     title: _("Name");
 
                     hexpand: true;
                   }
 
-                  Adw.EntryRow description {
-                    title: _("Description");
+
+
+
+                  Adw.EntryRow comment {
+                    title: _("Comment");
 
                     hexpand: true;
                   }
@@ -111,13 +120,26 @@ template DesktopcreatorWindow : Adw.ApplicationWindow {
                     hexpand: true;
                   }
 
-                  Adw.EntryRow {
-                    title: _("Command");
+                  
+                }
+
+                Adw.PreferencesGroup exec_group {
+                  title: _("Exececution");
+                  Adw.EntryRow exec {
+                    title: _("Exec");
 
                     hexpand: true;
                   }
+                  Adw.EntryRow try_exec {
+                    title: _("Try Exec");
 
-                  
+                    hexpand: true;
+                  }
+                  Adw.EntryRow working_dir {
+                    title: _("Working Dir");
+
+                    hexpand: true;
+                  }
                 }
 
 
@@ -162,6 +184,18 @@ template DesktopcreatorWindow : Adw.ApplicationWindow {
                   Adw.ActionRow hide_from_menus {
                     title: _("Hide from menus");
                     subtitle: _("Don't show this .desktop file in menus");
+
+                    [suffix]
+                    Gtk.Switch {
+                      halign: center;
+                      valign: center;
+                      active: false;
+                    }
+                  }
+
+                  Adw.ActionRow dbus_activatable {
+                    title: _("DBusActivatable");
+                    subtitle: _("A boolean value specifying if D-Bus activation is supported for this application");
 
                     [suffix]
                     Gtk.Switch {
@@ -364,7 +398,7 @@ template DesktopcreatorWindow : Adw.ApplicationWindow {
                   
                 }
 
-                Adw.PreferencesGroup dbus_activatable {
+                Adw.PreferencesGroup implements {
                   title: _("D-Bus interfaces implemented");
 
                   [header-suffix]
