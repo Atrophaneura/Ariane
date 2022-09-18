@@ -1,0 +1,31 @@
+name: "Translation"
+
+on:
+  schedule:
+    - cron:  '0 0,12 * * *'
+  workflow_dispatch:
+
+jobs:
+  generate:
+    name: Generate .pot and LINGUAS 
+    runs-on: ubuntu-latest
+  
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Update .pot
+        uses: GradienceTeam/action-update-pot@main
+        with:
+          title: "Desktop Creator POT file"
+          copyright: "Desktop Creator Team"
+          license: "GNU GPLv3"
+          author: "Desktop Creator Team"
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+
+      - name: Update linguas
+        uses: GradienceTeam/action-update-linguas@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+   
