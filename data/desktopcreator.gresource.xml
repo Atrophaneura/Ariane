@@ -9,4 +9,5 @@
       preprocess="xml-stripblanks"
       alias="grid-filled-symbolic.svg"
      >icons/scalable/actions/com.github.DesktopCreatorTeam.DesktopCreator-grid-filled-symbolic.svg</file>
+  </gresource>
 </gresources>
