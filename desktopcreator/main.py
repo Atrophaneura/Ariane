@@ -46,6 +46,7 @@ class DesktopcreatorApplication(Adw.Application):
         self.create_action('preferences', self.on_preferences_action)
         self.create_action('new', self.on_new_action)
         self.create_action('save', self.on_save_action)
+        self.create_action('open', self.on_open_action)
 
     def on_new_action(self, widget, _):
         win = DesktopcreatorWindow(application=self,
@@ -59,6 +60,9 @@ class DesktopcreatorApplication(Adw.Application):
         win.present()
 
     def on_save_action(self, widget, _):
+        pass
+
+    def on_open_action(self, widget, _):
         pass
 
     def do_activate(self):

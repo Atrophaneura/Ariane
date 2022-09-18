@@ -31,6 +31,10 @@ template DesktopcreatorWindow : Adw.ApplicationWindow {
           [end]
           Box {
             Gtk.Button {
+              icon-name: "document-open-symbolic";
+              action-name: "app.open";
+            }
+            Gtk.Button {
               icon-name: "document-new-symbolic";
               tooltip-text: _("New");
               action-name: "app.new";
