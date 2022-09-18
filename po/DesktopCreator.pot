@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-18 09:02+0000\n"
+"POT-Creation-Date: 2022-09-18 12:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "No description"
 msgstr ""
 
-#: data/ui/window.blp:5 desktopcreator/main.py:89
+#: data/ui/window.blp:5 desktopcreator/main.py:117
 msgid "Desktop Creator"
 msgstr ""
 
@@ -244,18 +244,22 @@ msgstr ""
 msgid "Preview"
 msgstr ""
 
-#: data/ui/window.blp:472
-msgid "Preferences"
-msgstr ""
-
-#: data/ui/window.blp:476
-msgid "Keyboard Shortcuts"
+#: data/ui/window.blp:460
+msgid "Browse"
 msgstr ""
 
 #: data/ui/window.blp:480
+msgid "Preferences"
+msgstr ""
+
+#: data/ui/window.blp:484
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: data/ui/window.blp:488
 msgid "About Desktop Creator"
 msgstr ""
 
-#: desktopcreator/main.py:91
+#: desktopcreator/main.py:119
 msgid "Desktop Creator Team"
 msgstr ""
