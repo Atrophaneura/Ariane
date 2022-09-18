@@ -1,0 +1,265 @@
+# Desktop Creator POT file
+# Copyright (C) 2022 Desktop Creator Team
+# This file is distributed under the GNU GPLv3 license.
+# Desktop Creator Team, 2022.
+#
+# Daudix UFO <ddaudix@gmail.com>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-18 12:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/com.github.DesktopCreatorTeam.DesktopCreator.desktop.in.in:3
+msgid "desktopcreator"
+msgstr ""
+
+#: data/com.github.DesktopCreatorTeam.DesktopCreator.appdata.xml.in.in:7
+msgid "No description"
+msgstr ""
+
+#: data/ui/window.blp:5 desktopcreator/main.py:117
+msgid "Desktop Creator"
+msgstr ""
+
+#: data/ui/window.blp:39
+msgid "New"
+msgstr ""
+
+#: data/ui/window.blp:49 data/ui/window.blp:60
+msgid "Save"
+msgstr ""
+
+#: data/ui/window.blp:84
+msgid "Edit"
+msgstr ""
+
+#: data/ui/window.blp:90
+msgid "Applications Details"
+msgstr ""
+
+#: data/ui/window.blp:93
+msgid "Type"
+msgstr ""
+
+#: data/ui/window.blp:96
+msgid "Application"
+msgstr ""
+
+#: data/ui/window.blp:96
+msgid "Link"
+msgstr ""
+
+#: data/ui/window.blp:96
+msgid "Directory"
+msgstr ""
+
+#: data/ui/window.blp:101
+msgid "Generic Name"
+msgstr ""
+
+#: data/ui/window.blp:108
+msgid "Name"
+msgstr ""
+
+#: data/ui/window.blp:118
+msgid "Comment"
+msgstr ""
+
+#: data/ui/window.blp:126
+msgid "Icon"
+msgstr ""
+
+#: data/ui/window.blp:136
+msgid "Exececution"
+msgstr ""
+
+#: data/ui/window.blp:138
+msgid "Exec"
+msgstr ""
+
+#: data/ui/window.blp:144
+msgid "Try Exec"
+msgstr ""
+
+#: data/ui/window.blp:150
+msgid "Working Dir"
+msgstr ""
+
+#: data/ui/window.blp:159
+msgid "Options"
+msgstr ""
+
+#: data/ui/window.blp:161
+msgid "Hidden"
+msgstr ""
+
+#: data/ui/window.blp:162
+msgid "Don't show this .desktop file in the launcher"
+msgstr ""
+
+#: data/ui/window.blp:173
+msgid "Run in terminal"
+msgstr ""
+
+#: data/ui/window.blp:174
+msgid "Run this .desktop file in a terminal"
+msgstr ""
+
+#: data/ui/window.blp:185
+msgid "Use startup notification"
+msgstr ""
+
+#: data/ui/window.blp:186
+msgid "Show a notification when this app is launched"
+msgstr ""
+
+#: data/ui/window.blp:197
+msgid "Hide from menus"
+msgstr ""
+
+#: data/ui/window.blp:198
+msgid "Don't show this .desktop file in menus"
+msgstr ""
+
+#: data/ui/window.blp:209
+msgid "DBusActivatable"
+msgstr ""
+
+#: data/ui/window.blp:210
+msgid ""
+"A boolean value specifying if D-Bus activation is supported for this "
+"application"
+msgstr ""
+
+#: data/ui/window.blp:222
+msgid "Categories"
+msgstr ""
+
+#: data/ui/window.blp:226 data/ui/window.blp:236
+msgid "Add Category"
+msgstr ""
+
+#: data/ui/window.blp:246
+msgid "No categories"
+msgstr ""
+
+#: data/ui/window.blp:247
+msgid "Add a category to this .desktop file"
+msgstr ""
+
+#: data/ui/window.blp:254
+msgid "Actions"
+msgstr ""
+
+#: data/ui/window.blp:258 data/ui/window.blp:268
+msgid "Add Action"
+msgstr ""
+
+#: data/ui/window.blp:278
+msgid "No actions"
+msgstr ""
+
+#: data/ui/window.blp:279
+msgid "Add an action to this .desktop file"
+msgstr ""
+
+#: data/ui/window.blp:286
+msgid "Only show in"
+msgstr ""
+
+#: data/ui/window.blp:290 data/ui/window.blp:300 data/ui/window.blp:322
+#: data/ui/window.blp:332
+msgid "Add Desktop Environment"
+msgstr ""
+
+#: data/ui/window.blp:310 data/ui/window.blp:342
+msgid "No desktop environments"
+msgstr ""
+
+#: data/ui/window.blp:311 data/ui/window.blp:343
+msgid "Add a DE to this .desktop file"
+msgstr ""
+
+#: data/ui/window.blp:318
+msgid "Not show in"
+msgstr ""
+
+#: data/ui/window.blp:350
+msgid "Mimetypes"
+msgstr ""
+
+#: data/ui/window.blp:354 data/ui/window.blp:364
+msgid "Add Mimetypes"
+msgstr ""
+
+#: data/ui/window.blp:374
+msgid "No mimetypes"
+msgstr ""
+
+#: data/ui/window.blp:375
+msgid "Add a mimetype to this .desktop file"
+msgstr ""
+
+#: data/ui/window.blp:382
+msgid "Keywords"
+msgstr ""
+
+#: data/ui/window.blp:386 data/ui/window.blp:396
+msgid "Add Keywords"
+msgstr ""
+
+#: data/ui/window.blp:406
+msgid "No keywords"
+msgstr ""
+
+#: data/ui/window.blp:407
+msgid "Add a keyword to this .desktop file"
+msgstr ""
+
+#: data/ui/window.blp:414
+msgid "D-Bus interfaces implemented"
+msgstr ""
+
+#: data/ui/window.blp:418 data/ui/window.blp:428
+msgid "Add Interface"
+msgstr ""
+
+#: data/ui/window.blp:438
+msgid "No interfaces"
+msgstr ""
+
+#: data/ui/window.blp:439
+msgid "Add an interface to this .desktop file"
+msgstr ""
+
+#: data/ui/window.blp:452
+msgid "Preview"
+msgstr ""
+
+#: data/ui/window.blp:460
+msgid "Browse"
+msgstr ""
+
+#: data/ui/window.blp:480
+msgid "Preferences"
+msgstr ""
+
+#: data/ui/window.blp:484
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: data/ui/window.blp:488
+msgid "About Desktop Creator"
+msgstr ""
+
+#: desktopcreator/main.py:119
+msgid "Desktop Creator Team"
+msgstr ""
