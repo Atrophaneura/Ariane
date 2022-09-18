@@ -5,3 +5,7 @@ install:
 global:
 	sudo meson builddir --prefix=/usr --wipe
 	sudo ninja -C builddir install
+
+release:
+	sudo meson builddir --prefix=/usr --Dbuildtype=release --wipe
+	sudo ninja -C builddir install
