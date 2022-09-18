@@ -9,253 +9,258 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-18 08:26+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-09-18 09:04+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/desktop-creator/"
+"desktop-creator/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: data/com.github.DesktopCreatorTeam.DesktopCreator.desktop.in.in:3
 msgid "desktopcreator"
-msgstr ""
+msgstr "créateur de bureau"
 
 #: data/com.github.DesktopCreatorTeam.DesktopCreator.appdata.xml.in.in:7
 msgid "No description"
-msgstr ""
+msgstr "Pas de description"
 
 #: data/ui/window.blp:5 desktopcreator/main.py:89
 msgid "Desktop Creator"
-msgstr ""
+msgstr "Créateur de bureau"
 
 #: data/ui/window.blp:39
 msgid "New"
-msgstr ""
+msgstr "Nouveau"
 
 #: data/ui/window.blp:49 data/ui/window.blp:60
 msgid "Save"
-msgstr ""
+msgstr "sauvegarder"
 
 #: data/ui/window.blp:84
 msgid "Edit"
-msgstr ""
+msgstr "Éditer"
 
 #: data/ui/window.blp:90
 msgid "Applications Details"
-msgstr ""
+msgstr "Détails des candidatures"
 
 #: data/ui/window.blp:93
 msgid "Type"
-msgstr ""
+msgstr "Taper"
 
 #: data/ui/window.blp:96
 msgid "Application"
-msgstr ""
+msgstr "Application"
 
 #: data/ui/window.blp:96
 msgid "Link"
-msgstr ""
+msgstr "Lien"
 
 #: data/ui/window.blp:96
 msgid "Directory"
-msgstr ""
+msgstr "Annuaire"
 
 #: data/ui/window.blp:101
 msgid "Generic Name"
-msgstr ""
+msgstr "Nom générique"
 
 #: data/ui/window.blp:108
 msgid "Name"
-msgstr ""
+msgstr "Nom"
 
 #: data/ui/window.blp:118
 msgid "Comment"
-msgstr ""
+msgstr "Commentaire"
 
 #: data/ui/window.blp:126
 msgid "Icon"
-msgstr ""
+msgstr "Icône"
 
 #: data/ui/window.blp:136
 msgid "Exececution"
-msgstr ""
+msgstr "Exécution"
 
 #: data/ui/window.blp:138
 msgid "Exec"
-msgstr ""
+msgstr "Exécutif"
 
 #: data/ui/window.blp:144
 msgid "Try Exec"
-msgstr ""
+msgstr "Essayez Exec"
 
 #: data/ui/window.blp:150
 msgid "Working Dir"
-msgstr ""
+msgstr "Dir de travail"
 
 #: data/ui/window.blp:159
 msgid "Options"
-msgstr ""
+msgstr "Choix"
 
 #: data/ui/window.blp:161
 msgid "Hidden"
-msgstr ""
+msgstr "Caché"
 
 #: data/ui/window.blp:162
 msgid "Don't show this .desktop file in the launcher"
-msgstr ""
+msgstr "Ne pas afficher ce fichier .desktop dans le lanceur"
 
 #: data/ui/window.blp:173
 msgid "Run in terminal"
-msgstr ""
+msgstr "Exécuter dans le terminal"
 
 #: data/ui/window.blp:174
 msgid "Run this .desktop file in a terminal"
-msgstr ""
+msgstr "Exécutez ce fichier .desktop dans un terminal"
 
 #: data/ui/window.blp:185
 msgid "Use startup notification"
-msgstr ""
+msgstr "Utiliser la notification de démarrage"
 
 #: data/ui/window.blp:186
 msgid "Show a notification when this app is launched"
-msgstr ""
+msgstr "Afficher une notification lorsque cette application est lancée"
 
 #: data/ui/window.blp:197
 msgid "Hide from menus"
-msgstr ""
+msgstr "Masquer des menus"
 
 #: data/ui/window.blp:198
 msgid "Don't show this .desktop file in menus"
-msgstr ""
+msgstr "Ne pas afficher ce fichier .desktop dans les menus"
 
 #: data/ui/window.blp:209
 msgid "DBusActivatable"
-msgstr ""
+msgstr "DBusactivable"
 
 #: data/ui/window.blp:210
 msgid ""
 "A boolean value specifying if D-Bus activation is supported for this "
 "application"
 msgstr ""
+"Une valeur booléenne spécifiant si l'activation de D-Bus est prise en charge "
+"pour cette application"
 
 #: data/ui/window.blp:222
 msgid "Categories"
-msgstr ""
+msgstr "Catégories"
 
 #: data/ui/window.blp:226 data/ui/window.blp:236
 msgid "Add Category"
-msgstr ""
+msgstr "ajouter une catégorie"
 
 #: data/ui/window.blp:246
 msgid "No categories"
-msgstr ""
+msgstr "Aucune catégorie"
 
 #: data/ui/window.blp:247
 msgid "Add a category to this .desktop file"
-msgstr ""
+msgstr "Ajouter une catégorie à ce fichier .desktop"
 
 #: data/ui/window.blp:254
 msgid "Actions"
-msgstr ""
+msgstr "Actions"
 
 #: data/ui/window.blp:258 data/ui/window.blp:268
 msgid "Add Action"
-msgstr ""
+msgstr "Ajouter une action"
 
 #: data/ui/window.blp:278
 msgid "No actions"
-msgstr ""
+msgstr "Aucune action"
 
 #: data/ui/window.blp:279
 msgid "Add an action to this .desktop file"
-msgstr ""
+msgstr "Ajouter une action à ce fichier .desktop"
 
 #: data/ui/window.blp:286
 msgid "Only show in"
-msgstr ""
+msgstr "Afficher uniquement dans"
 
 #: data/ui/window.blp:290 data/ui/window.blp:300 data/ui/window.blp:322
 #: data/ui/window.blp:332
 msgid "Add Desktop Environment"
-msgstr ""
+msgstr "Ajouter un environnement de bureau"
 
 #: data/ui/window.blp:310 data/ui/window.blp:342
 msgid "No desktop environments"
-msgstr ""
+msgstr "Aucun environnement de bureau"
 
 #: data/ui/window.blp:311 data/ui/window.blp:343
 msgid "Add a DE to this .desktop file"
-msgstr ""
+msgstr "Ajouter un DE à ce fichier .desktop"
 
 #: data/ui/window.blp:318
 msgid "Not show in"
-msgstr ""
+msgstr "Ne pas afficher dans"
 
 #: data/ui/window.blp:350
 msgid "Mimetypes"
-msgstr ""
+msgstr "Types MIME"
 
 #: data/ui/window.blp:354 data/ui/window.blp:364
 msgid "Add Mimetypes"
-msgstr ""
+msgstr "Ajouter des types mime"
 
 #: data/ui/window.blp:374
 msgid "No mimetypes"
-msgstr ""
+msgstr "Aucun type mime"
 
 #: data/ui/window.blp:375
 msgid "Add a mimetype to this .desktop file"
-msgstr ""
+msgstr "Ajouter un type mime à ce fichier .desktop"
 
 #: data/ui/window.blp:382
 msgid "Keywords"
-msgstr ""
+msgstr "Mots clés"
 
 #: data/ui/window.blp:386 data/ui/window.blp:396
 msgid "Add Keywords"
-msgstr ""
+msgstr "Ajouter des mots-clés"
 
 #: data/ui/window.blp:406
 msgid "No keywords"
-msgstr ""
+msgstr "Aucun mot clé"
 
 #: data/ui/window.blp:407
 msgid "Add a keyword to this .desktop file"
-msgstr ""
+msgstr "Ajouter un mot-clé à ce fichier .desktop"
 
 #: data/ui/window.blp:414
 msgid "D-Bus interfaces implemented"
-msgstr ""
+msgstr "Interfaces D-Bus implémentées"
 
 #: data/ui/window.blp:418 data/ui/window.blp:428
 msgid "Add Interface"
-msgstr ""
+msgstr "Ajouter une interface"
 
 #: data/ui/window.blp:438
 msgid "No interfaces"
-msgstr ""
+msgstr "Aucune interface"
 
 #: data/ui/window.blp:439
 msgid "Add an interface to this .desktop file"
-msgstr ""
+msgstr "Ajouter une interface à ce fichier .desktop"
 
 #: data/ui/window.blp:452
 msgid "Preview"
-msgstr ""
+msgstr "Aperçu"
 
 #: data/ui/window.blp:472
 msgid "Preferences"
-msgstr ""
+msgstr "Préférences"
 
 #: data/ui/window.blp:476
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Raccourcis clavier"
 
 #: data/ui/window.blp:480
 msgid "About Desktop Creator"
-msgstr ""
+msgstr "À propos de Desktop Creator"
 
 #: desktopcreator/main.py:91
 msgid "Desktop Creator Team"
-msgstr ""
+msgstr "Équipe de créateurs de bureau"
