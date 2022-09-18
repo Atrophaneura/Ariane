@@ -29,6 +29,8 @@ from gi.repository import Gtk, Gio, Adw
 import sys
 import gi
 
+from desktop_parser import DesktopFile
+
 gi.require_version('Gtk', '4.0')
 gi.require_version('Adw', '1')
 
@@ -37,6 +39,7 @@ class DesktopcreatorApplication(Adw.Application):
     """The main application singleton class."""
 
     settings = Gio.Settings.new(app_id)
+    desktop = DesktopFile()
 
     def __init__(self):
         super().__init__(application_id=app_id,
@@ -60,7 +63,10 @@ class DesktopcreatorApplication(Adw.Application):
         win.present()
 
     def on_save_action(self, widget, _):
-        pass
+        """Callback for the app.save action."""
+        print('app.save action activated')
+        
+        self.desktop.dump()
 
     def on_open_action(self, widget, _):
         pass
