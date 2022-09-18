@@ -17,10 +17,43 @@ template DesktopcreatorWindow : Adw.ApplicationWindow {
         Adw.HeaderBar titlebar {
           centering-policy: strict;
 
-
           [title]
           Adw.ViewSwitcherTitle title {
             stack: view_stack;
+          }
+
+          [end]
+          Box {
+            Gtk.Button {
+              icon-name: "document-new-symbolic";
+              tooltip-text: _("New");
+              //action-name: "app.new";
+
+              styles ["flat"]
+            }
+
+            Separator {
+              orientation: vertical;
+            }
+            Gtk.Button {
+              tooltip-text: _("Save"); 
+              // action-name: "app.save";
+              halign: end;
+              valign: center;
+
+              Box {
+                spacing: 6;
+                Gtk.Image {
+                  icon-name: "document-save-symbolic";
+                }
+                Gtk.Label {
+                  label: _("Save");
+                }
+              }
+
+              styles ["flat"]
+            
+            }
           }
 
           [end]
@@ -97,6 +130,232 @@ template DesktopcreatorWindow : Adw.ApplicationWindow {
                     }
                   }
                 }
+
+                Adw.PreferencesGroup categories {
+                  title: _("Categories");
+
+                  [header-suffix]
+                  Gtk.Button {
+                    label: _("Add Category");
+                    halign: end;
+                    valign: center;
+
+                    Box {
+                      spacing: 6;
+                      Gtk.Image {
+                        icon-name: "list-add-symbolic";
+                      }
+                      Gtk.Label {
+                        label: _("Add Category");
+                      }
+                    }
+
+                    styles [
+                      "flat"
+                    ]
+                  }
+
+                  Adw.ActionRow empty_category {
+                    title: _("No categories");
+                    subtitle: _("Add a category to this .desktop file");
+
+                  }
+                  
+                }
+
+                Adw.PreferencesGroup actions {
+                  title: _("Actions");
+
+                  [header-suffix]
+                  Gtk.Button {
+                    label: _("Add Action");
+                    halign: end;
+                    valign: center;
+
+                    Box {
+                      spacing: 6;
+                      Gtk.Image {
+                        icon-name: "list-add-symbolic";
+                      }
+                      Gtk.Label {
+                        label: _("Add Action");
+                      }
+                    }
+
+                    styles [
+                      "flat"
+                    ]
+                  }
+
+                  Adw.ActionRow empty_action {
+                    title: _("No actions");
+                    subtitle: _("Add an action to this .desktop file");
+
+                  }
+                  
+                }
+
+                Adw.PreferencesGroup only_show_in {
+                  title: _("Only show in");
+
+                  [header-suffix]
+                  Gtk.Button {
+                    label: _("Add Desktop Environment");
+                    halign: end;
+                    valign: center;
+
+                    Box {
+                      spacing: 6;
+                      Gtk.Image {
+                        icon-name: "list-add-symbolic";
+                      }
+                      Gtk.Label {
+                        label: _("Add Desktop Environment");
+                      }
+                    }
+
+                    styles [
+                      "flat"
+                    ]
+                  }
+
+                  Adw.ActionRow empty_desktop_environment_not {
+                    title: _("No desktop environments");
+                    subtitle: _("Add a DE to this .desktop file");
+
+                  }
+                  
+                }
+
+                Adw.PreferencesGroup not_show_in {
+                  title: _("Not show in");
+
+                  [header-suffix]
+                  Gtk.Button {
+                    label: _("Add Desktop Environment");
+                    halign: end;
+                    valign: center;
+
+                    Box {
+                      spacing: 6;
+                      Gtk.Image {
+                        icon-name: "list-add-symbolic";
+                      }
+                      Gtk.Label {
+                        label: _("Add Desktop Environment");
+                      }
+                    }
+
+                    styles [
+                      "flat"
+                    ]
+                  }
+
+                  Adw.ActionRow empty_desktop_environment_only {
+                    title: _("No desktop environments");
+                    subtitle: _("Add a DE to this .desktop file");
+
+                  }
+                  
+                }
+
+                Adw.PreferencesGroup mimetypes {
+                  title: _("Mimetypes");
+
+                  [header-suffix]
+                  Gtk.Button {
+                    label: _("Add Mimetypes");
+                    halign: end;
+                    valign: center;
+
+                    Box {
+                      spacing: 6;
+                      Gtk.Image {
+                        icon-name: "list-add-symbolic";
+                      }
+                      Gtk.Label {
+                        label: _("Add Mimetypes");
+                      }
+                    }
+
+                    styles [
+                      "flat"
+                    ]
+                  }
+
+                  Adw.ActionRow empty_mimetypes {
+                    title: _("No mimetypes");
+                    subtitle: _("Add a mimetype to this .desktop file");
+
+                  }
+                  
+                }
+
+                Adw.PreferencesGroup keywords {
+                  title: _("Keywords");
+
+                  [header-suffix]
+                  Gtk.Button {
+                    label: _("Add Keywords");
+                    halign: end;
+                    valign: center;
+
+                    Box {
+                      spacing: 6;
+                      Gtk.Image {
+                        icon-name: "list-add-symbolic";
+                      }
+                      Gtk.Label {
+                        label: _("Add Keywords");
+                      }
+                    }
+
+                    styles [
+                      "flat"
+                    ]
+                  }
+
+                  Adw.ActionRow empty_keywords {
+                    title: _("No keywords");
+                    subtitle: _("Add a keyword to this .desktop file");
+
+                  }
+                  
+                }
+
+                Adw.PreferencesGroup dbus_activatable {
+                  title: _("D-Bus interfaces implemented");
+
+                  [header-suffix]
+                  Gtk.Button {
+                    label: _("Add Interface");
+                    halign: end;
+                    valign: center;
+
+                    Box {
+                      spacing: 6;
+                      Gtk.Image {
+                        icon-name: "list-add-symbolic";
+                      }
+                      Gtk.Label {
+                        label: _("Add Interface");
+                      }
+                    }
+
+                    styles [
+                      "flat"
+                    ]
+                  }
+
+                  Adw.ActionRow empty_dbus {
+                    title: _("No interfaces");
+                    subtitle: _("Add an interface to this .desktop file");
+
+                  }
+                  
+                }
+
+                
               };
 
             }
