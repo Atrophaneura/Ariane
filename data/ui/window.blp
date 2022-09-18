@@ -80,6 +80,47 @@ template DesktopcreatorWindow : Adw.ApplicationWindow {
               icon-name: "settings-symbolic";
 
               child: Adw.PreferencesPage content { 
+
+                Adw.PreferencesGroup applications_details {
+                  title: _("Applications Details");
+
+                  Adw.ComboRow type {
+                    title: _("Type");
+                    
+                    model: StringList {
+                      strings [_("Application"), _("Link"), _("Directory")]
+                    };
+                  }
+                  
+                  Adw.EntryRow name {
+                    title: _("Name");
+
+                    hexpand: true;
+                  }
+
+                  Adw.EntryRow description {
+                    title: _("Description");
+
+                    hexpand: true;
+                  }
+
+
+                  Adw.EntryRow {
+                    title: _("Icon");
+
+                    hexpand: true;
+                  }
+
+                  Adw.EntryRow {
+                    title: _("Command");
+
+                    hexpand: true;
+                  }
+
+                  
+                }
+
+
                 Adw.PreferencesGroup options {
                   title: _("Options");
                   Adw.ActionRow hidden {
