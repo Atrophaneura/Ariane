@@ -122,7 +122,7 @@ template DesktopcreatorWindow : Adw.ApplicationWindow {
                   }
 
 
-                  Adw.EntryRow {
+                  Adw.EntryRow icon {
                     title: _("Icon");
                     show-apply-button: true;
 
@@ -162,7 +162,7 @@ template DesktopcreatorWindow : Adw.ApplicationWindow {
                     subtitle: _("Don't show this .desktop file in the launcher");
 
                     [suffix]
-                    Gtk.Switch {
+                    Gtk.Switch hidden_switch {
                       halign: center;
                       valign: center;
                       active: false;
@@ -174,7 +174,7 @@ template DesktopcreatorWindow : Adw.ApplicationWindow {
                     subtitle: _("Run this .desktop file in a terminal");
 
                     [suffix]
-                    Gtk.Switch {
+                    Gtk.Switch run_in_terminal_switch {
                       halign: center;
                       valign: center;
                       active: false;
@@ -186,7 +186,7 @@ template DesktopcreatorWindow : Adw.ApplicationWindow {
                     subtitle: _("Show a notification when this app is launched");
 
                     [suffix]
-                    Gtk.Switch {
+                    Gtk.Switch use_startup_notification_switch {
                       halign: center;
                       valign: center;
                       active: false;
@@ -198,7 +198,7 @@ template DesktopcreatorWindow : Adw.ApplicationWindow {
                     subtitle: _("Don't show this .desktop file in menus");
 
                     [suffix]
-                    Gtk.Switch {
+                    Gtk.Switch hide_from_menus_switch {
                       halign: center;
                       valign: center;
                       active: false;
@@ -210,7 +210,7 @@ template DesktopcreatorWindow : Adw.ApplicationWindow {
                     subtitle: _("A boolean value specifying if D-Bus activation is supported for this application");
 
                     [suffix]
-                    Gtk.Switch {
+                    Gtk.Switch dbus_activatable_switch {
                       halign: center;
                       valign: center;
                       active: false;

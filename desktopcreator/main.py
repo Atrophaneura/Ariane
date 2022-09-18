@@ -66,7 +66,7 @@ class DesktopcreatorApplication(Adw.Application):
         """Callback for the app.save action."""
         print('app.save action activated')
         
-        self.desktop.dump()
+        print(self.desktop.data)
 
     def on_open_action(self, widget, _):
         pass
