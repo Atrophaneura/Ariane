@@ -26,6 +26,9 @@ jobs:
 
       - name: Update linguas
         uses: GradienceTeam/action-update-linguas@main
+        with:
+          author: "DesktopCreator"
+          author_email: "DesktopCreatorTeam@proton.me"
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
    
