@@ -24,7 +24,12 @@ from .constants import rootdir
 class DesktopcreatorWindow(Adw.ApplicationWindow):
     __gtype_name__ = 'DesktopcreatorWindow'
 
-    label = Gtk.Template.Child()
+    main_view = Gtk.Template.Child()
+    titlebar = Gtk.Template.Child()
+    title = Gtk.Template.Child()
+    view_stack = Gtk.Template.Child()
+    content = Gtk.Template.Child()
+    content_preview = Gtk.Template.Child()
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)

@@ -46,7 +46,58 @@ template DesktopcreatorWindow : Adw.ApplicationWindow {
               title: _("Edit");
               icon-name: "settings-symbolic";
 
-              child: Adw.PreferencesPage content { };
+              child: Adw.PreferencesPage content { 
+                Adw.PreferencesGroup options {
+                  title: _("Options");
+                  Adw.ActionRow hidden {
+                    title: _("Hidden");
+                    subtitle: _("Don't show this .desktop file in the launcher");
+
+                    [suffix]
+                    Gtk.Switch {
+                      halign: center;
+                      valign: center;
+                      active: false;
+                    }
+                  }
+
+                  Adw.ActionRow run_in_terminal {
+                    title: _("Run in terminal");
+                    subtitle: _("Run this .desktop file in a terminal");
+
+                    [suffix]
+                    Gtk.Switch {
+                      halign: center;
+                      valign: center;
+                      active: false;
+                    }
+                  }
+
+                  Adw.ActionRow use_startup_notification {
+                    title: _("Use startup notification");
+                    subtitle: _("Show a notification when this app is launched");
+
+                    [suffix]
+                    Gtk.Switch {
+                      halign: center;
+                      valign: center;
+                      active: false;
+                    }
+                  }
+
+                  Adw.ActionRow hide_from_menus {
+                    title: _("Hide from menus");
+                    subtitle: _("Don't show this .desktop file in menus");
+
+                    [suffix]
+                    Gtk.Switch {
+                      halign: center;
+                      valign: center;
+                      active: false;
+                    }
+                  }
+                }
+              };
 
             }
 
