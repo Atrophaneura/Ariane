@@ -36,7 +36,7 @@ class DesktopcreatorWindow(Adw.ApplicationWindow):
     name = Gtk.Template.Child()
     comment = Gtk.Template.Child()
     icon = Gtk.Template.Child()
-    exec_entry = Gtk.Template.Callback("exec")
+    exec_entry = Gtk.Template.Child("exec")
     try_exec = Gtk.Template.Child()
     working_dir = Gtk.Template.Child()
     

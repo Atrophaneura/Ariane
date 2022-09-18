@@ -65,8 +65,31 @@ class DesktopcreatorApplication(Adw.Application):
     def on_save_action(self, widget, _):
         """Callback for the app.save action."""
         print('app.save action activated')
+        self.desktop.data["Desktop Entry"] = {}
+        if self.win.generic_name.get_text():
+            self.desktop.data["Desktop Entry"]["GenericName"] = self.win.generic_name.get_text()
+        if self.win.name.get_text():
+            self.desktop.data["Desktop Entry"]["Name"] = self.win.name.get_text()
+        else:
+            self.win.name.set_css_classes(["error"])
+            return
+        if self.win.comment.get_text():
+            self.desktop.data["Desktop Entry"]["Comment"] = self.win.comment.get_text()
+        if self.win.exec_entry.get_text():
+            self.desktop.data["Desktop Entry"]["Exec"] = self.win.exec_entry.get_text()
+        if self.win.icon.get_text():
+            self.desktop.data["Desktop Entry"]["Icon"] = self.win.icon.get_text()
+        if self.win.try_exec.get_text():
+            self.desktop.data["Desktop Entry"]["TryExec"] = self.win.try_exec.get_text()
+        if self.win.working_dir.get_text():
+            self.desktop.data["Desktop Entry"]["WorkingDir"] = self.win.working_dir.get_text()
+        self.desktop.data["Desktop Entry"]["Hidden"] = self.win.hidden_switch.get_active()
+        self.desktop.data["Desktop Entry"]["Terminal"] = self.win.run_in_terminal_switch.get_active()
+        self.desktop.data["Desktop Entry"]["StartupNotify"] = self.win.use_startup_notification_switch.get_active()
+        self.desktop.data["Desktop Entry"]["DBusActivatable"] = self.win.dbus_activatable_switch.get_active()
+        self.desktop.data["Desktop Entry"]["NoDisplay"] = self.win.hide_from_menus_switch.get_active()
         
-        print(self.desktop.data)
+        self.desktop.dump('test.desktop')
 
     def on_open_action(self, widget, _):
         pass
@@ -77,10 +100,10 @@ class DesktopcreatorApplication(Adw.Application):
         We raise the application's main window, creating it if
         necessary.
         """
-        win = self.props.active_window
-        if not win:
-            win = DesktopcreatorWindow(application=self)
-        win.present()
+        self.win = self.props.active_window
+        if not self.win:
+            self.win = DesktopcreatorWindow(application=self)
+        self.win.present()
 
     def show_about_window(self, *_args):
         """Callback for the app.about action."""
