@@ -454,6 +454,14 @@ template DesktopcreatorWindow : Adw.ApplicationWindow {
 
               child: Adw.PreferencesPage content_preview { };
             }
+
+            Adw.ViewStackPage {
+              name: "browse";
+              title: _("Browse");
+              icon-name: "web-browser-symbolic";
+
+              child: Adw.PreferencesPage content_browse { };
+            }
           }
 
           Adw.ViewSwitcherBar {
