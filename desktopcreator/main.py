@@ -36,6 +36,8 @@ gi.require_version('Adw', '1')
 class DesktopcreatorApplication(Adw.Application):
     """The main application singleton class."""
 
+    settings = Gio.Settings.new(app_id)
+
     def __init__(self):
         super().__init__(application_id=app_id,
                          flags=Gio.ApplicationFlags.FLAGS_NONE)
@@ -44,11 +46,18 @@ class DesktopcreatorApplication(Adw.Application):
         self.create_action('preferences', self.on_preferences_action)
         self.create_action('new', self.on_new_action)
         self.create_action('save', self.on_save_action)
-        
+
     def on_new_action(self, widget, _):
-        win = DesktopcreatorWindow(application=self)
+        win = DesktopcreatorWindow(application=self,
+                                   default_height=self.settings.get_int(
+                                       "window-height"),
+                                   default_width=self.settings.get_int(
+                                       "window-width"),
+                                   fullscreened=self.settings.get_boolean(
+                                       "window-fullscreen"),
+                                   maximized=self.settings.get_boolean("window-maximized"),)
         win.present()
-        
+
     def on_save_action(self, widget, _):
         pass
 
@@ -73,7 +82,7 @@ class DesktopcreatorApplication(Adw.Application):
             website=project_url,
             support_url=help_url,
             issue_url=bugtracker_url,
-            developers=["0xMRTT https://github.com/0xMRTT",],
+            developers=["0xMRTT https://github.com/0xMRTT", ],
             artists=[""],
             designers=["Angelo Verlain  https://gitlab.gnome.org/vixalien"],
             # Translators: This is a place to put your credits (formats: "Name

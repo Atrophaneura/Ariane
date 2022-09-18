@@ -56,14 +56,14 @@ if appstream_util.found()
   )
 endif
 
-# configure_file(
-#   input: '@0@.gschema.xml.in'.format(PROJECT_RDNN_NAME),
-#   output: '@0@.gschema.xml'.format(APPLICATION_ID),
-#   configuration: conf,
-#   install: true,
-#   install_dir: join_paths(get_option('datadir'), 'glib-2.0/schemas')
-# )
-# 
+configure_file(
+  input: '@0@.gschema.xml.in'.format(PROJECT_RDNN_NAME),
+  output: '@0@.gschema.xml'.format(APPLICATION_ID),
+  configuration: conf,
+  install: true,
+  install_dir: join_paths(get_option('datadir'), 'glib-2.0/schemas')
+)
+
 compile_schemas = find_program('glib-compile-schemas', required: false)
 if compile_schemas.found()
   test('Validate schema file', compile_schemas,

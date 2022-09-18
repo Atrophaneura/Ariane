@@ -3,6 +3,7 @@
   <gresource prefix="/com/github/DesktopCreatorTeam/DesktopCreator">
     <file preprocess="xml-stripblanks">ui/window.ui</file>
     <file preprocess="xml-stripblanks" alias="ui/gtk/help-overlay.ui">ui/help-overlay.ui</file>
+    <file preprocess="xml-stripblanks">ui/show_row.ui</file>
   </gresource>
   <gresource prefix="/com/github/DesktopCreatorTeam/DesktopCreator/icons/scalable/actions/">
     <file
