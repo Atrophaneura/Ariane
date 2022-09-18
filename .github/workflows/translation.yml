@@ -21,6 +21,8 @@ jobs:
           copyright: "Desktop Creator Team"
           license: "GNU GPLv3"
           author: "Desktop Creator Team"
+          commiter: "Desktop Creator"
+          commiter_email: "DesktopCreatorTeam@proton.me"
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 
