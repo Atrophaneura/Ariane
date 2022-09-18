@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-18 12:28+0000\n"
-"PO-Revision-Date: 2022-09-18 15:47+0000\n"
-"Last-Translator: Daudix UFO <ddaudix@gmail.com>\n"
+"PO-Revision-Date: 2022-09-18 20:56+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/desktop-creator/"
 "desktop-creator/ru/>\n"
 "Language: ru\n"
@@ -87,183 +87,185 @@ msgstr "Исполнение"
 
 #: data/ui/window.blp:138
 msgid "Exec"
-msgstr ""
+msgstr "Исполнитель"
 
 #: data/ui/window.blp:144
 msgid "Try Exec"
-msgstr ""
+msgstr "Попробуйте Exec"
 
 #: data/ui/window.blp:150
 msgid "Working Dir"
-msgstr ""
+msgstr "Рабочий директор"
 
 #: data/ui/window.blp:159
 msgid "Options"
-msgstr ""
+msgstr "Опции"
 
 #: data/ui/window.blp:161
 msgid "Hidden"
-msgstr ""
+msgstr "Скрытый"
 
 #: data/ui/window.blp:162
 msgid "Don't show this .desktop file in the launcher"
-msgstr ""
+msgstr "Не показывать этот файл .desktop в панели запуска"
 
 #: data/ui/window.blp:173
 msgid "Run in terminal"
-msgstr ""
+msgstr "Запустить в терминале"
 
 #: data/ui/window.blp:174
 msgid "Run this .desktop file in a terminal"
-msgstr ""
+msgstr "Запустите этот файл .desktop в терминале"
 
 #: data/ui/window.blp:185
 msgid "Use startup notification"
-msgstr ""
+msgstr "Использовать уведомление о запуске"
 
 #: data/ui/window.blp:186
 msgid "Show a notification when this app is launched"
-msgstr ""
+msgstr "Показывать уведомление при запуске этого приложения"
 
 #: data/ui/window.blp:197
 msgid "Hide from menus"
-msgstr ""
+msgstr "Скрыть из меню"
 
 #: data/ui/window.blp:198
 msgid "Don't show this .desktop file in menus"
-msgstr ""
+msgstr "Не показывать этот файл .desktop в меню"
 
 #: data/ui/window.blp:209
 msgid "DBusActivatable"
-msgstr ""
+msgstr "DBusActivatable"
 
 #: data/ui/window.blp:210
 msgid ""
 "A boolean value specifying if D-Bus activation is supported for this "
 "application"
 msgstr ""
+"Логическое значение, указывающее, поддерживается ли активация D-Bus для "
+"этого приложения."
 
 #: data/ui/window.blp:222
 msgid "Categories"
-msgstr ""
+msgstr "Категории"
 
 #: data/ui/window.blp:226 data/ui/window.blp:236
 msgid "Add Category"
-msgstr ""
+msgstr "Добавить категорию"
 
 #: data/ui/window.blp:246
 msgid "No categories"
-msgstr ""
+msgstr "Нет категорий"
 
 #: data/ui/window.blp:247
 msgid "Add a category to this .desktop file"
-msgstr ""
+msgstr "Добавьте категорию в этот файл .desktop"
 
 #: data/ui/window.blp:254
 msgid "Actions"
-msgstr ""
+msgstr "Действия"
 
 #: data/ui/window.blp:258 data/ui/window.blp:268
 msgid "Add Action"
-msgstr ""
+msgstr "Добавить действие"
 
 #: data/ui/window.blp:278
 msgid "No actions"
-msgstr ""
+msgstr "Нет действий"
 
 #: data/ui/window.blp:279
 msgid "Add an action to this .desktop file"
-msgstr ""
+msgstr "Добавьте действие в этот файл .desktop"
 
 #: data/ui/window.blp:286
 msgid "Only show in"
-msgstr ""
+msgstr "Показывать только в"
 
 #: data/ui/window.blp:290 data/ui/window.blp:300 data/ui/window.blp:322
 #: data/ui/window.blp:332
 msgid "Add Desktop Environment"
-msgstr ""
+msgstr "Добавить среду рабочего стола"
 
 #: data/ui/window.blp:310 data/ui/window.blp:342
 msgid "No desktop environments"
-msgstr ""
+msgstr "Нет среды рабочего стола"
 
 #: data/ui/window.blp:311 data/ui/window.blp:343
 msgid "Add a DE to this .desktop file"
-msgstr ""
+msgstr "Добавьте DE в этот файл .desktop"
 
 #: data/ui/window.blp:318
 msgid "Not show in"
-msgstr ""
+msgstr "Не показывать в"
 
 #: data/ui/window.blp:350
 msgid "Mimetypes"
-msgstr ""
+msgstr "Миметипы"
 
 #: data/ui/window.blp:354 data/ui/window.blp:364
 msgid "Add Mimetypes"
-msgstr ""
+msgstr "Добавить миметипы"
 
 #: data/ui/window.blp:374
 msgid "No mimetypes"
-msgstr ""
+msgstr "Нет миметипов"
 
 #: data/ui/window.blp:375
 msgid "Add a mimetype to this .desktop file"
-msgstr ""
+msgstr "Добавьте MIME-тип в этот файл .desktop."
 
 #: data/ui/window.blp:382
 msgid "Keywords"
-msgstr ""
+msgstr "Ключевые слова"
 
 #: data/ui/window.blp:386 data/ui/window.blp:396
 msgid "Add Keywords"
-msgstr ""
+msgstr "Добавить ключевые слова"
 
 #: data/ui/window.blp:406
 msgid "No keywords"
-msgstr ""
+msgstr "Нет ключевых слов"
 
 #: data/ui/window.blp:407
 msgid "Add a keyword to this .desktop file"
-msgstr ""
+msgstr "Добавьте ключевое слово в этот файл .desktop"
 
 #: data/ui/window.blp:414
 msgid "D-Bus interfaces implemented"
-msgstr ""
+msgstr "Реализованы интерфейсы D-Bus"
 
 #: data/ui/window.blp:418 data/ui/window.blp:428
 msgid "Add Interface"
-msgstr ""
+msgstr "Добавить интерфейс"
 
 #: data/ui/window.blp:438
 msgid "No interfaces"
-msgstr ""
+msgstr "Нет интерфейсов"
 
 #: data/ui/window.blp:439
 msgid "Add an interface to this .desktop file"
-msgstr ""
+msgstr "Добавьте интерфейс в этот файл .desktop"
 
 #: data/ui/window.blp:452
 msgid "Preview"
-msgstr ""
+msgstr "Предварительный просмотр"
 
 #: data/ui/window.blp:460
 msgid "Browse"
-msgstr ""
+msgstr "Просматривать"
 
 #: data/ui/window.blp:480
 msgid "Preferences"
-msgstr ""
+msgstr "Настройки"
 
 #: data/ui/window.blp:484
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Горячие клавиши"
 
 #: data/ui/window.blp:488
 msgid "About Desktop Creator"
-msgstr ""
+msgstr "О Конструкторе рабочего стола"
 
 #: desktopcreator/main.py:119
 msgid "Desktop Creator Team"
-msgstr ""
+msgstr "Команда разработчиков настольных компьютеров"
