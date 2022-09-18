@@ -42,6 +42,15 @@ class DesktopcreatorApplication(Adw.Application):
         self.create_action('quit', self.quit, ['<primary>q'])
         self.create_action('about', self.show_about_window)
         self.create_action('preferences', self.on_preferences_action)
+        self.create_action('new', self.on_new_action)
+        self.create_action('save', self.on_save_action)
+        
+    def on_new_action(self, widget, _):
+        win = DesktopcreatorWindow(application=self)
+        win.present()
+        
+    def on_save_action(self, widget, _):
+        pass
 
     def do_activate(self):
         """Called when the application is activated.
@@ -65,7 +74,7 @@ class DesktopcreatorApplication(Adw.Application):
             support_url=help_url,
             issue_url=bugtracker_url,
             developers=["0xMRTT https://github.com/0xMRTT",],
-            artists=["Angelo Verlain  https://gitlab.gnome.org/vixalien"],
+            artists=[""],
             designers=["Angelo Verlain  https://gitlab.gnome.org/vixalien"],
             # Translators: This is a place to put your credits (formats: "Name
             # https://example.com" or "Name <email@example.com>", no quotes)
