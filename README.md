@@ -7,4 +7,4 @@ Create .desktop with ease
 
 ### Translate 
 
-[![Translation status](https://hosted.weblate.org/widgets/desktop-creator/-/desktop-creator/open-graph.png)](https://hosted.weblate.org/engage/desktop-creator/)
+[![Translation status](https://hosted.weblate.org/widgets/ariane-team/-/ariane/open-graph.png)](https://hosted.weblate.org/engage/ariane-team/)
