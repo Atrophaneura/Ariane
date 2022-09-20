@@ -1,5 +1,6 @@
-# DesktopCreator
-Create .desktop with ease
+# Ariane
+
+Create and manage `.desktop` with ease
 
 ## Install 
 
