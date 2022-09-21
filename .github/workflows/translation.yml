@@ -20,8 +20,8 @@ jobs:
           title: "Desktop Creator POT file"
           copyright: "Desktop Creator Team"
           license: "GNU GPLv3"
-          author: "Desktop Creator Team"
-          commiter: "Desktop Creator"
+          author: "Ariane Team"
+          commiter: "ArianeTeamBot"
           commiter_email: "DesktopCreatorTeam@proton.me"
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
@@ -29,7 +29,7 @@ jobs:
       - name: Update linguas
         uses: GradienceTeam/action-update-linguas@main
         with:
-          author: "DesktopCreator"
+          author: "ArianeTeamBot"
           author_email: "DesktopCreatorTeam@proton.me"
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
