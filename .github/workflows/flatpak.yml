@@ -8,7 +8,7 @@ on:
     path: 
       # all python files
       - "**.py"
-      - "desktopcreator/**"
+      - "ariane/**"
       # all meson files
       - "**.build"
       # flatpak manifest
@@ -44,7 +44,7 @@ jobs:
           platforms: arm64
       - uses: bilelmoussaoui/flatpak-github-actions/flatpak-builder@v4
         with:
-          bundle: com.github.DesktopCreatorTeam.DesktopCreator.Devel.flatpak
-          manifest-path: build-aux/flatpak/com.github.DesktopCreatorTeam.DesktopCreator.Devel.json
+          bundle: com.github.ArianeTeam.Ariane.Devel.flatpak
+          manifest-path: build-aux/flatpak/com.github.ArianeTeam.Ariane.Devel.json
           cache-key: flatpak-builder-${{ github.sha }}
           arch: ${{ matrix.arch }}
