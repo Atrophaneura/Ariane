@@ -22,8 +22,8 @@ if desktop_utils.found()
   )
 endif
 
-gnome.compile_resources('desktopcreator',
-  'desktopcreator.gresource.xml',
+gnome.compile_resources('ariane',
+  'ariane.gresource.xml',
   gresource_bundle: true,
   source_dir: meson.current_build_dir(),
   install: true,

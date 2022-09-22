@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
-  <gresource prefix="/com/github/DesktopCreatorTeam/DesktopCreator">
+  <gresource prefix="/com/github/ArianeTeam/Ariane">
     <file preprocess="xml-stripblanks">ui/window.ui</file>
     <file preprocess="xml-stripblanks" alias="ui/gtk/help-overlay.ui">ui/help-overlay.ui</file>
     <file preprocess="xml-stripblanks">ui/show_row.ui</file>
   </gresource>
-  <gresource prefix="/com/github/DesktopCreatorTeam/DesktopCreator/icons/scalable/actions/">
+  <gresource prefix="/com/github/ArianeTeam/Ariane/icons/scalable/actions/">
     <file
       preprocess="xml-stripblanks"
       alias="grid-filled-symbolic.svg"
-     >icons/scalable/actions/com.github.DesktopCreatorTeam.DesktopCreator-grid-filled-symbolic.svg</file>
+     >icons/scalable/actions/com.github.ArianeTeam.Ariane-grid-filled-symbolic.svg</file>
   </gresource>
 </gresources>

@@ -1,7 +1,7 @@
-data/com.github.DesktopCreatorTeam.DesktopCreator.desktop.in.in
-data/com.github.DesktopCreatorTeam.DesktopCreator.appdata.xml.in.in
-data/com.github.DesktopCreatorTeam.DesktopCreator.gschema.xml.in
+data/com.github.ArianeTeam.Ariane.desktop.in.in
+data/com.github.ArianeTeam.Ariane.appdata.xml.in.in
+data/com.github.ArianeTeam.Ariane.gschema.xml.in
 data/ui/window.blp
-desktopcreator/main.py
-desktopcreator/window.py
+ariane/main.py
+ariane/window.py
 

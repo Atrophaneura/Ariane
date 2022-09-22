@@ -1,4 +1,4 @@
-project('desktopcreator',
+project('ariane',
           version: '0.1.0',
     meson_version: '>= 0.59.0',
   default_options: [ 'warning_level=2',
@@ -12,13 +12,13 @@ i18n = import('i18n')
 python = import('python')
 
 # Project information
-PROJECT_URL = 'https://github.com/DesktopCreatorTeam/DesktopCreator'
-BUGTRACKER_URL = 'https://github.com/DesktopCreatorTeam/DesktopCreator/issues'
-HELP_URL = 'https://github.com/orgs/DesktopCreatorTeam/discussions'
-TRANSLATE_URL = 'https://hosted.weblate.org/projects/DesktopCreatorTeam/DesktopCreator/'
+PROJECT_URL = 'https://github.com/ArianeTeam/Ariane'
+BUGTRACKER_URL = 'https://github.com/ArianeTeam/Ariane/issues'
+HELP_URL = 'https://github.com/orgs/ArianeTeam/discussions'
+TRANSLATE_URL = 'https://hosted.weblate.org/projects/ArianeTeam/Ariane/'
 
 # Constants
-PROJECT_RDNN_NAME = 'com.github.DesktopCreatorTeam.DesktopCreator'
+PROJECT_RDNN_NAME = 'com.github.ArianeTeam.Ariane'
 
 # Set APPLICATION_ID and VERSION_SUFFIX
 if get_option('buildtype') == 'debug'
@@ -81,7 +81,7 @@ local_conf.set('BUILD_DIR', meson.current_build_dir())
 local_conf.set('local_build', 'True')
 
 # Subdirs
-subdir('desktopcreator')
+subdir('ariane')
 subdir('data')
 subdir('po')
 
