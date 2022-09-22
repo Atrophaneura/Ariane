@@ -107,7 +107,7 @@ class ArianeApplication(Adw.Application):
         """
         self.win = self.props.active_window
         if not self.win:
-            self.win = DesktopcreatorWindow(application=self)
+            self.win = ArianeWindow(application=self)
         self.win.present()
 
     def show_about_window(self, *_args):
