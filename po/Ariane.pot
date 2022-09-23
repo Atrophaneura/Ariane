@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-22 12:32+0000\n"
+"POT-Creation-Date: 2022-09-23 01:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,16 +17,16 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: data/com.github.DesktopCreatorTeam.DesktopCreator.desktop.in.in:3
+#: data/com.github.ArianeTeam.Ariane.desktop.in.in:3
 msgid "desktopcreator"
 msgstr ""
 
-#: data/com.github.DesktopCreatorTeam.DesktopCreator.appdata.xml.in.in:7
+#: data/com.github.ArianeTeam.Ariane.appdata.xml.in.in:7
 msgid "No description"
 msgstr ""
 
-#: data/ui/window.blp:5 desktopcreator/main.py:117
-msgid "Desktop Creator"
+#: data/ui/window.blp:5 ariane/main.py:117
+msgid "Ariane"
 msgstr ""
 
 #: data/ui/window.blp:39
@@ -260,6 +260,6 @@ msgstr ""
 msgid "About Desktop Creator"
 msgstr ""
 
-#: desktopcreator/main.py:119
-msgid "Desktop Creator Team"
+#: ariane/main.py:119
+msgid "Ariane Team"
 msgstr ""
