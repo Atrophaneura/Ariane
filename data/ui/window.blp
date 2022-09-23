@@ -17,6 +17,16 @@ template ArianeWindow : Adw.ApplicationWindow {
         Adw.HeaderBar titlebar {
           centering-policy: strict;
 
+          [start]
+          Adw.SplitButton file_open_button {
+            styles ["flat"]
+            label: _("Open");
+            tooltip-text: _("Open a .desktop file");
+            use-underline: true;
+            action-name: "app.open";
+            popover: Gtk.Popover {};
+          }
+
           [title]
           Adw.ViewSwitcherTitle title {
             stack: view_stack;
@@ -27,49 +37,6 @@ template ArianeWindow : Adw.ApplicationWindow {
             icon-name: "open-menu-symbolic";
             menu-model: primary_menu;
           }
-
-          [end]
-          Box {
-            Gtk.Button {
-              icon-name: "document-open-symbolic";
-              action-name: "app.open";
-            }
-            Gtk.Button {
-              icon-name: "document-new-symbolic";
-              tooltip-text: _("New");
-              action-name: "app.new";
-
-              styles ["flat"]
-            }
-
-            Separator {
-              orientation: vertical;
-            }
-            Gtk.Button {
-              tooltip-text: _("Save"); 
-              action-name: "app.save";
-              halign: end;
-              valign: center;
-
-              Box {
-                spacing: 6;
-                Gtk.Image {
-                  icon-name: "document-save-symbolic";
-                }
-                Gtk.Label {
-                  label: _("Save");
-                }
-              }
-
-              styles ["flat"]
-            
-            }
-          }
-
-
-          
-
-
         }
 
         Gtk.Box {
