@@ -3,6 +3,7 @@
   <gresource prefix="/com/github/ArianeTeam/Ariane">
     <file preprocess="xml-stripblanks">ui/window.ui</file>
     <file preprocess="xml-stripblanks" alias="ui/gtk/help-overlay.ui">ui/help-overlay.ui</file>
+    <file preprocess="xml-stripblanks">ui/welcome.ui</file>
     <file preprocess="xml-stripblanks">ui/show_row.ui</file>
   </gresource>
   <gresource prefix="/com/github/ArianeTeam/Ariane/icons/scalable/actions/">

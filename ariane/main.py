@@ -31,6 +31,9 @@ import gi
 
 from desktop_parser import DesktopFile
 
+
+from .welcome import WelcomeWindow
+
 gi.require_version('Gtk', '4.0')
 gi.require_version('Adw', '1')
 
@@ -50,17 +53,13 @@ class ArianeApplication(Adw.Application):
         self.create_action('new', self.on_new_action)
         self.create_action('save', self.on_save_action)
         self.create_action('open', self.on_open_action)
+        
+        self.first_run = self.settings.get_boolean("first-run")
+        self.last_opened_version = self.settings.get_string(
+            "last-opened-version")
 
     def on_new_action(self, widget, _):
-        win = ArianeWindow(application=self,
-                                   default_height=self.settings.get_int(
-                                       "window-height"),
-                                   default_width=self.settings.get_int(
-                                       "window-width"),
-                                   fullscreened=self.settings.get_boolean(
-                                       "window-fullscreen"),
-                                   maximized=self.settings.get_boolean("window-maximized"),)
-        win.present()
+        print('app.new action activated')
 
     def on_save_action(self, widget, _):
         """Callback for the app.save action."""
@@ -107,7 +106,23 @@ class ArianeApplication(Adw.Application):
         """
         self.win = self.props.active_window
         if not self.win:
-            self.win = ArianeWindow(application=self)
+            self.win = ArianeWindow(application=self,
+                                   default_height=self.settings.get_int(
+                                       "window-height"),
+                                   default_width=self.settings.get_int(
+                                       "window-width"),
+                                   fullscreened=self.settings.get_boolean(
+                                       "window-fullscreen"),
+                                   maximized=self.settings.get_boolean("window-maximized"),)
+        win.present()
+        if version != self.last_opened_version:
+            welcome = WelcomeWindow(self.win, update=True)
+            welcome.present()
+        elif self.first_run:
+            welcome = WelcomeWindow(self.win)
+            welcome.present()
+        else:
+            self.win.present()
         self.win.present()
 
     def show_about_window(self, *_args):

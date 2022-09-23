@@ -40,6 +40,7 @@ ariane_sources = [
   'main.py',
   'window.py',
   'show_row.py',
+  'welcome.py',
 ]
 
 PY_INSTALLDIR.install_sources(ariane_sources, subdir: 'ariane')

@@ -13,5 +13,11 @@
 		<key name="window-fullscreen" type="b">
 			<default>false</default>
 		</key>
+		<key name="first-run" type="b">
+			<default>true</default>
+		</key>
+        <key name="last-opened-version" type="s">
+			<default>'0.2.2'</default>
+		</key>
 	</schema>
 </schemalist>
