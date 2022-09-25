@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-25 12:29+0000\n"
 "PO-Revision-Date: 2022-09-25 23:32+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Last-Translator: JanDeDinoMan <fame.minecrafter@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/ariane-team/ariane/"
 "nl/>\n"
 "Language: nl\n"
@@ -231,23 +231,23 @@ msgstr "Voeg een trefwoord toe aan dit .desktop bestand"
 
 #: data/ui/window.blp:381
 msgid "D-Bus interfaces implemented"
-msgstr ""
+msgstr "Geïmplementeerde D-Bus interfaces"
 
 #: data/ui/window.blp:385 data/ui/window.blp:395
 msgid "Add Interface"
-msgstr ""
+msgstr "Interface toevoegen"
 
 #: data/ui/window.blp:405
 msgid "No interfaces"
-msgstr ""
+msgstr "Geen interfaces"
 
 #: data/ui/window.blp:406
 msgid "Add an interface to this .desktop file"
-msgstr ""
+msgstr "Een interface toevoegen aan dit .desktop bestand"
 
 #: data/ui/window.blp:419
 msgid "Preview"
-msgstr ""
+msgstr "Voorbeeld"
 
 #: data/ui/window.blp:427
 msgid "Browse"
