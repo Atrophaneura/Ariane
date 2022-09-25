@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-25 12:29+0000\n"
 "PO-Revision-Date: 2022-09-25 23:43+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Last-Translator: JanDeDinoMan <fame.minecrafter@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/ariane-team/ariane/"
 "nl/>\n"
 "Language: nl\n"
@@ -255,15 +255,15 @@ msgstr ""
 
 #: data/ui/window.blp:447
 msgid "Preferences"
-msgstr ""
+msgstr "Voorkeuren"
 
 #: data/ui/window.blp:451
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Sneltoetsen"
 
 #: data/ui/window.blp:455
 msgid "About Desktop Creator"
-msgstr ""
+msgstr "Over Desktop Creator"
 
 #: ariane/main.py:134
 msgid "Ariane Team"
