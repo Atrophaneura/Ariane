@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-25 12:29+0000\n"
 "PO-Revision-Date: 2022-09-25 22:38+0000\n"
-"Last-Translator: JanDeDinoMan <fame.minecrafter@gmail.com>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/ariane-team/ariane/"
 "nl/>\n"
 "Language: nl\n"
@@ -30,7 +30,7 @@ msgstr "Geen beschrijving"
 
 #: data/ui/window.blp:5 ariane/main.py:132
 msgid "Ariane"
-msgstr ""
+msgstr "Ariane"
 
 #: data/ui/window.blp:23
 msgid "Open"
