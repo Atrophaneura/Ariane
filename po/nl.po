@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-25 12:29+0000\n"
-"PO-Revision-Date: 2022-09-25 22:41+0000\n"
-"Last-Translator: JanDeDinoMan <fame.minecrafter@gmail.com>\n"
+"PO-Revision-Date: 2022-09-25 22:59+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/ariane-team/ariane/"
 "nl/>\n"
 "Language: nl\n"
@@ -62,7 +62,7 @@ msgstr "Link"
 
 #: data/ui/window.blp:63
 msgid "Directory"
-msgstr ""
+msgstr "Adresboek"
 
 #: data/ui/window.blp:68
 msgid "Generic Name"
@@ -82,19 +82,19 @@ msgstr "Icoon"
 
 #: data/ui/window.blp:103
 msgid "Exececution"
-msgstr ""
+msgstr "uitvoering"
 
 #: data/ui/window.blp:105
 msgid "Exec"
-msgstr ""
+msgstr "directeur"
 
 #: data/ui/window.blp:111
 msgid "Try Exec"
-msgstr ""
+msgstr "Probeer Exec"
 
 #: data/ui/window.blp:117
 msgid "Working Dir"
-msgstr ""
+msgstr "Werkmap"
 
 #: data/ui/window.blp:126
 msgid "Options"
@@ -110,7 +110,7 @@ msgstr "Toon dit .desktop bestand niet in de launcher"
 
 #: data/ui/window.blp:140
 msgid "Run in terminal"
-msgstr ""
+msgstr "Uitvoeren in de terminal"
 
 #: data/ui/window.blp:141
 msgid "Run this .desktop file in a terminal"
