@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-25 12:29+0000\n"
 "PO-Revision-Date: 2022-09-25 22:59+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Last-Translator: JanDeDinoMan <fame.minecrafter@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/ariane-team/ariane/"
 "nl/>\n"
 "Language: nl\n"
@@ -114,86 +114,88 @@ msgstr "Uitvoeren in de terminal"
 
 #: data/ui/window.blp:141
 msgid "Run this .desktop file in a terminal"
-msgstr ""
+msgstr "Voer dit .desktop bestand uit in een terminal"
 
 #: data/ui/window.blp:152
 msgid "Use startup notification"
-msgstr ""
+msgstr "Opstartmelding gebruiken"
 
 #: data/ui/window.blp:153
 msgid "Show a notification when this app is launched"
-msgstr ""
+msgstr "Toon een notificatie wanneer deze app wordt gestart"
 
 #: data/ui/window.blp:164
 msgid "Hide from menus"
-msgstr ""
+msgstr "Verbergen in menu's"
 
 #: data/ui/window.blp:165
 msgid "Don't show this .desktop file in menus"
-msgstr ""
+msgstr "Toon dit .desktop bestand niet in menu's"
 
 #: data/ui/window.blp:176
 msgid "DBusActivatable"
-msgstr ""
+msgstr "DBusActiveerbaar"
 
 #: data/ui/window.blp:177
 msgid ""
 "A boolean value specifying if D-Bus activation is supported for this "
 "application"
 msgstr ""
+"Een booleaanse waarde die aangeeft of D-Bus activering wordt ondersteund "
+"voor deze toepassing"
 
 #: data/ui/window.blp:189
 msgid "Categories"
-msgstr ""
+msgstr "Categorieën"
 
 #: data/ui/window.blp:193 data/ui/window.blp:203
 msgid "Add Category"
-msgstr ""
+msgstr "Categorie toevoegen"
 
 #: data/ui/window.blp:213
 msgid "No categories"
-msgstr ""
+msgstr "Geen categorieën"
 
 #: data/ui/window.blp:214
 msgid "Add a category to this .desktop file"
-msgstr ""
+msgstr "Voeg een categorie toe aan dit .desktop bestand"
 
 #: data/ui/window.blp:221
 msgid "Actions"
-msgstr ""
+msgstr "Acties"
 
 #: data/ui/window.blp:225 data/ui/window.blp:235
 msgid "Add Action"
-msgstr ""
+msgstr "Actie toevoegen"
 
 #: data/ui/window.blp:245
 msgid "No actions"
-msgstr ""
+msgstr "Geen acties"
 
 #: data/ui/window.blp:246
 msgid "Add an action to this .desktop file"
-msgstr ""
+msgstr "Een actie toevoegen aan dit .desktop bestand"
 
 #: data/ui/window.blp:253
 msgid "Only show in"
-msgstr ""
+msgstr "Alleen tonen in"
 
 #: data/ui/window.blp:257 data/ui/window.blp:267 data/ui/window.blp:289
 #: data/ui/window.blp:299
 msgid "Add Desktop Environment"
-msgstr ""
+msgstr "Desktopomgeving toevoegen"
 
 #: data/ui/window.blp:277 data/ui/window.blp:309
 msgid "No desktop environments"
-msgstr ""
+msgstr "Geen desktop omgevingen"
 
 #: data/ui/window.blp:278 data/ui/window.blp:310
 msgid "Add a DE to this .desktop file"
-msgstr ""
+msgstr "Voeg een desktopomgeving toe aan dit .desktop bestand"
 
 #: data/ui/window.blp:285
 msgid "Not show in"
-msgstr ""
+msgstr "Niet tonen in"
 
 #: data/ui/window.blp:317
 msgid "Mimetypes"
@@ -201,11 +203,11 @@ msgstr ""
 
 #: data/ui/window.blp:321 data/ui/window.blp:331
 msgid "Add Mimetypes"
-msgstr ""
+msgstr "Mimetypes toevoegen"
 
 #: data/ui/window.blp:341
 msgid "No mimetypes"
-msgstr ""
+msgstr "Geen mimetypes"
 
 #: data/ui/window.blp:342
 msgid "Add a mimetype to this .desktop file"
