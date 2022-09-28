@@ -10,6 +10,10 @@
     <file
       preprocess="xml-stripblanks"
       alias="grid-filled-symbolic.svg"
-     >icons/scalable/actions/com.github.ArianeTeam.Ariane-grid-filled-symbolic.svg</file>
+     >icons/scalable/actions/grid-filled-symbolic.svg</file>
+    <file
+      preprocess="xml-stripblanks"
+      alias="larger-brush-symbolic.svg"
+     >icons/scalable/actions/larger-brush-symbolic.svg</file>
   </gresource>
 </gresources>

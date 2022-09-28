@@ -114,16 +114,16 @@ class ArianeApplication(Adw.Application):
                                    fullscreened=self.settings.get_boolean(
                                        "window-fullscreen"),
                                    maximized=self.settings.get_boolean("window-maximized"),)
-            self.win.present()
-        if version != self.last_opened_version:
+        if rel_ver != self.last_opened_version:
+            print("New version detected")
             welcome = WelcomeWindow(self.win, update=True)
             welcome.present()
         elif self.first_run:
+            print("First run detected")
             welcome = WelcomeWindow(self.win)
             welcome.present()
         else:
             self.win.present()
-        self.win.present()
 
     def show_about_window(self, *_args):
         """Callback for the app.about action."""

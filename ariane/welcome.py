@@ -3,7 +3,7 @@ import time
 
 from gi.repository import Gtk, Adw, Gio
 
-from .constants import rootdir, app_id, version
+from .constants import rootdir, app_id, version, rel_ver
 
 
 @Gtk.Template(resource_path=f"{rootdir}/ui/welcome.ui")
@@ -21,8 +21,8 @@ class WelcomeWindow(Adw.Window):
     img_welcome = Gtk.Template.Child()
 
     images = [
-        f"{rootdir}/images/welcome.svg",
-        f"{rootdir}/images/welcome-dark.svg",
+        f"{rootdir}/icons/scalable/apps/com.github.ArianeTeam.Ariane.svg",
+        f"{rootdir}/icons/scalable/apps/com.github.ArianeTeam.Ariane.svg",
     ]
 
     carousel_pages = [
@@ -110,5 +110,9 @@ class WelcomeWindow(Adw.Window):
         self.carousel.scroll_to(next_page, True)
 
     def close_window(self, widget):
+        self.window.settings.set_boolean("first-run", False)
+        self.window.last_opened_version = self.window.settings.set_string(
+            "last-opened-version", rel_ver
+        )
         self.destroy()
         self.window.present()

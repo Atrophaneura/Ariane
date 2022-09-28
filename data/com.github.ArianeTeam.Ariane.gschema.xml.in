@@ -17,7 +17,7 @@
 			<default>true</default>
 		</key>
         <key name="last-opened-version" type="s">
-			<default>'0.2.2'</default>
+			<default>'0.1.0'</default>
 		</key>
 	</schema>
 </schemalist>
