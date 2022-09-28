@@ -9,257 +9,260 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-28 01:42+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-09-28 11:08+0000\n"
+"Last-Translator: Hoseok Seo <ddinghoya@gmail.com>\n"
+"Language-Team: Korean <https://hosted.weblate.org/projects/ariane-team/"
+"ariane/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: data/com.github.ArianeTeam.Ariane.desktop.in.in:3
 msgid "desktopcreator"
-msgstr ""
+msgstr "데스크탑크리에이터"
 
 #: data/com.github.ArianeTeam.Ariane.appdata.xml.in.in:7
 msgid "No description"
-msgstr ""
+msgstr "설명 없음"
 
 #: data/ui/window.blp:5 ariane/main.py:132
 msgid "Ariane"
-msgstr ""
+msgstr "아리안"
 
 #: data/ui/window.blp:23
 msgid "Open"
-msgstr ""
+msgstr "열기"
 
 #: data/ui/window.blp:24
 msgid "Open a .desktop file"
-msgstr ""
+msgstr ".desktop 파일 열기"
 
 #: data/ui/window.blp:51
 msgid "Edit"
-msgstr ""
+msgstr "편집"
 
 #: data/ui/window.blp:57
 msgid "Applications Details"
-msgstr ""
+msgstr "응용 프로그램 세부 정보"
 
 #: data/ui/window.blp:60
 msgid "Type"
-msgstr ""
+msgstr "유형"
 
 #: data/ui/window.blp:63
 msgid "Application"
-msgstr ""
+msgstr "응용 프로그램"
 
 #: data/ui/window.blp:63
 msgid "Link"
-msgstr ""
+msgstr "링크"
 
 #: data/ui/window.blp:63
 msgid "Directory"
-msgstr ""
+msgstr "디렉토리"
 
 #: data/ui/window.blp:68
 msgid "Generic Name"
-msgstr ""
+msgstr "일반적인 이름"
 
 #: data/ui/window.blp:75
 msgid "Name"
-msgstr ""
+msgstr "이름"
 
 #: data/ui/window.blp:85
 msgid "Comment"
-msgstr ""
+msgstr "코멘트"
 
 #: data/ui/window.blp:93
 msgid "Icon"
-msgstr ""
+msgstr "아이콘"
 
 #: data/ui/window.blp:103
 msgid "Exececution"
-msgstr ""
+msgstr "실행"
 
 #: data/ui/window.blp:105
 msgid "Exec"
-msgstr ""
+msgstr "실행"
 
 #: data/ui/window.blp:111
 msgid "Try Exec"
-msgstr ""
+msgstr "실행 시도"
 
 #: data/ui/window.blp:117
 msgid "Working Dir"
-msgstr ""
+msgstr "작업 디렉토리"
 
 #: data/ui/window.blp:126
 msgid "Options"
-msgstr ""
+msgstr "옵션"
 
 #: data/ui/window.blp:128
 msgid "Hidden"
-msgstr ""
+msgstr "숨기기"
 
 #: data/ui/window.blp:129
 msgid "Don't show this .desktop file in the launcher"
-msgstr ""
+msgstr "런처에 이 .desktop 파일을 표시하지 않음"
 
 #: data/ui/window.blp:140
 msgid "Run in terminal"
-msgstr ""
+msgstr "터미널에서 실행"
 
 #: data/ui/window.blp:141
 msgid "Run this .desktop file in a terminal"
-msgstr ""
+msgstr "터미널에서 이 .desktop 파일 실행"
 
 #: data/ui/window.blp:152
 msgid "Use startup notification"
-msgstr ""
+msgstr "시작 알림 사용"
 
 #: data/ui/window.blp:153
 msgid "Show a notification when this app is launched"
-msgstr ""
+msgstr "이 앱이 실행될 때 알림 표시"
 
 #: data/ui/window.blp:164
 msgid "Hide from menus"
-msgstr ""
+msgstr "메뉴에서 숨기기"
 
 #: data/ui/window.blp:165
 msgid "Don't show this .desktop file in menus"
-msgstr ""
+msgstr "이 .desktop 파일을 메뉴에 표시하지 않음"
 
 #: data/ui/window.blp:176
 msgid "DBusActivatable"
-msgstr ""
+msgstr "DBus활성화가능"
 
 #: data/ui/window.blp:177
 msgid ""
 "A boolean value specifying if D-Bus activation is supported for this "
 "application"
-msgstr ""
+msgstr "이 응용 프로그램에 대해 D-Bus 활성화가 지원되는지 여부를 지정하는 부울 값"
 
 #: data/ui/window.blp:189
 msgid "Categories"
-msgstr ""
+msgstr "범주"
 
 #: data/ui/window.blp:193 data/ui/window.blp:203
 msgid "Add Category"
-msgstr ""
+msgstr "범주 추가"
 
 #: data/ui/window.blp:213
 msgid "No categories"
-msgstr ""
+msgstr "범주 없음"
 
 #: data/ui/window.blp:214
 msgid "Add a category to this .desktop file"
-msgstr ""
+msgstr "이 .desktop 파일에 범주 추가"
 
 #: data/ui/window.blp:221
 msgid "Actions"
-msgstr ""
+msgstr "액션"
 
 #: data/ui/window.blp:225 data/ui/window.blp:235
 msgid "Add Action"
-msgstr ""
+msgstr "액션 추가"
 
 #: data/ui/window.blp:245
 msgid "No actions"
-msgstr ""
+msgstr "액션 없음"
 
 #: data/ui/window.blp:246
 msgid "Add an action to this .desktop file"
-msgstr ""
+msgstr "이 .desktop 파일에 액션 추가"
 
 #: data/ui/window.blp:253
 msgid "Only show in"
-msgstr ""
+msgstr "다음에만 표시"
 
 #: data/ui/window.blp:257 data/ui/window.blp:267 data/ui/window.blp:289
 #: data/ui/window.blp:299
 msgid "Add Desktop Environment"
-msgstr ""
+msgstr "데스크탑 환경 추가"
 
 #: data/ui/window.blp:277 data/ui/window.blp:309
 msgid "No desktop environments"
-msgstr ""
+msgstr "데스크탑 환경 없음"
 
 #: data/ui/window.blp:278 data/ui/window.blp:310
 msgid "Add a DE to this .desktop file"
-msgstr ""
+msgstr "이 .desktop 파일에 DE 추가"
 
 #: data/ui/window.blp:285
 msgid "Not show in"
-msgstr ""
+msgstr "표시되지 않음"
 
 #: data/ui/window.blp:317
 msgid "Mimetypes"
-msgstr ""
+msgstr "마임유형"
 
 #: data/ui/window.blp:321 data/ui/window.blp:331
 msgid "Add Mimetypes"
-msgstr ""
+msgstr "마임유형 추가"
 
 #: data/ui/window.blp:341
 msgid "No mimetypes"
-msgstr ""
+msgstr "마임유형 없음"
 
 #: data/ui/window.blp:342
 msgid "Add a mimetype to this .desktop file"
-msgstr ""
+msgstr "이 .desktop 파일에 마임유형 추가"
 
 #: data/ui/window.blp:349
 msgid "Keywords"
-msgstr ""
+msgstr "키워드"
 
 #: data/ui/window.blp:353 data/ui/window.blp:363
 msgid "Add Keywords"
-msgstr ""
+msgstr "키워드 추가"
 
 #: data/ui/window.blp:373
 msgid "No keywords"
-msgstr ""
+msgstr "키워드 없음"
 
 #: data/ui/window.blp:374
 msgid "Add a keyword to this .desktop file"
-msgstr ""
+msgstr "이 .desktop 파일에 키워드 추가"
 
 #: data/ui/window.blp:381
 msgid "D-Bus interfaces implemented"
-msgstr ""
+msgstr "D-Bus 인터페이스 구현"
 
 #: data/ui/window.blp:385 data/ui/window.blp:395
 msgid "Add Interface"
-msgstr ""
+msgstr "인터페이스 추가"
 
 #: data/ui/window.blp:405
 msgid "No interfaces"
-msgstr ""
+msgstr "인터페이스 없음"
 
 #: data/ui/window.blp:406
 msgid "Add an interface to this .desktop file"
-msgstr ""
+msgstr "이 .desktop 파일에 인터페이스 추가"
 
 #: data/ui/window.blp:419
 msgid "Preview"
-msgstr ""
+msgstr "미리 보기"
 
 #: data/ui/window.blp:427
 msgid "Browse"
-msgstr ""
+msgstr "찾아보기"
 
 #: data/ui/window.blp:447
 msgid "Preferences"
-msgstr ""
+msgstr "기본 설정"
 
 #: data/ui/window.blp:451
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "키보드 단축키"
 
 #: data/ui/window.blp:455
 msgid "About Desktop Creator"
-msgstr ""
+msgstr "데스크탑 크리에이터 정보"
 
 #: ariane/main.py:134
 msgid "Ariane Team"
-msgstr ""
+msgstr "팀 아리안"
