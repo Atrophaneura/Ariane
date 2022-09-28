@@ -3,268 +3,263 @@
 # This file is distributed under the GNU GPLv3 license.
 # Ariane Team, 2022.
 #
-# Allan Nordhøy <epost@anotheragency.no>, 2022.
+# Hoseok Seo <ddinghoya@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-28 01:42+0000\n"
-"PO-Revision-Date: 2022-09-28 10:45+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/"
-"ariane-team/ariane/nb_NO/>\n"
-"Language: nb_NO\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.1\n"
 
 #: data/com.github.ArianeTeam.Ariane.desktop.in.in:3
 msgid "desktopcreator"
-msgstr "desktopcreator"
+msgstr ""
 
 #: data/com.github.ArianeTeam.Ariane.appdata.xml.in.in:7
 msgid "No description"
-msgstr "Ingen beskrivelse"
+msgstr ""
 
 #: data/ui/window.blp:5 ariane/main.py:132
 msgid "Ariane"
-msgstr "Ariane"
+msgstr ""
 
 #: data/ui/window.blp:23
 msgid "Open"
-msgstr "Åpne"
+msgstr ""
 
 #: data/ui/window.blp:24
 msgid "Open a .desktop file"
-msgstr "Åpne en .desktop-fil"
+msgstr ""
 
 #: data/ui/window.blp:51
 msgid "Edit"
-msgstr "Rediger"
+msgstr ""
 
 #: data/ui/window.blp:57
 msgid "Applications Details"
-msgstr "Søknader detaljer"
+msgstr ""
 
 #: data/ui/window.blp:60
 msgid "Type"
-msgstr "Type"
+msgstr ""
 
 #: data/ui/window.blp:63
 msgid "Application"
-msgstr "Program"
+msgstr ""
 
 #: data/ui/window.blp:63
 msgid "Link"
-msgstr "Link"
+msgstr ""
 
 #: data/ui/window.blp:63
 msgid "Directory"
-msgstr "Mappe"
+msgstr ""
 
 #: data/ui/window.blp:68
 msgid "Generic Name"
-msgstr "Generisk navn"
+msgstr ""
 
 #: data/ui/window.blp:75
 msgid "Name"
-msgstr "Navn"
+msgstr ""
 
 #: data/ui/window.blp:85
 msgid "Comment"
-msgstr "Kommentar"
+msgstr ""
 
 #: data/ui/window.blp:93
 msgid "Icon"
-msgstr "Icon"
+msgstr ""
 
 #: data/ui/window.blp:103
 msgid "Exececution"
-msgstr "Henrettelse"
+msgstr ""
 
 #: data/ui/window.blp:105
 msgid "Exec"
-msgstr "Exec"
+msgstr ""
 
 #: data/ui/window.blp:111
 msgid "Try Exec"
-msgstr "Prøv Exec"
+msgstr ""
 
 #: data/ui/window.blp:117
 msgid "Working Dir"
-msgstr "Arbeidsdir"
+msgstr ""
 
 #: data/ui/window.blp:126
 msgid "Options"
-msgstr "Valg"
+msgstr ""
 
 #: data/ui/window.blp:128
 msgid "Hidden"
-msgstr "Skjult"
+msgstr ""
 
 #: data/ui/window.blp:129
 msgid "Don't show this .desktop file in the launcher"
-msgstr "Ikke vis denne .desktop-filen i startprogrammet"
+msgstr ""
 
 #: data/ui/window.blp:140
 msgid "Run in terminal"
-msgstr "Kjør i terminal"
+msgstr ""
 
 #: data/ui/window.blp:141
 msgid "Run this .desktop file in a terminal"
-msgstr "Kjør denne .desktop-filen i en terminal"
+msgstr ""
 
 #: data/ui/window.blp:152
 msgid "Use startup notification"
-msgstr "Bruk oppstartsvarsling"
+msgstr ""
 
 #: data/ui/window.blp:153
 msgid "Show a notification when this app is launched"
-msgstr "Vis et varsel når denne appen startes"
+msgstr ""
 
 #: data/ui/window.blp:164
 msgid "Hide from menus"
-msgstr "Skjul fra menyer"
+msgstr ""
 
 #: data/ui/window.blp:165
 msgid "Don't show this .desktop file in menus"
-msgstr "Ikke vis denne .desktop-filen i menyer"
+msgstr ""
 
 #: data/ui/window.blp:176
 msgid "DBusActivatable"
-msgstr "DBusAktiverbar"
+msgstr ""
 
 #: data/ui/window.blp:177
 msgid ""
 "A boolean value specifying if D-Bus activation is supported for this "
 "application"
 msgstr ""
-"En boolsk verdi som spesifiserer om D-Bus-aktivering støttes for denne "
-"applikasjonen"
 
 #: data/ui/window.blp:189
 msgid "Categories"
-msgstr "Kategorier"
+msgstr ""
 
 #: data/ui/window.blp:193 data/ui/window.blp:203
 msgid "Add Category"
-msgstr "Legg til kategori"
+msgstr ""
 
 #: data/ui/window.blp:213
 msgid "No categories"
-msgstr "Ingen kategorier."
+msgstr ""
 
 #: data/ui/window.blp:214
 msgid "Add a category to this .desktop file"
-msgstr "Legg til en kategori til denne .desktop-filen"
+msgstr ""
 
 #: data/ui/window.blp:221
 msgid "Actions"
-msgstr "Handlinger"
+msgstr ""
 
 #: data/ui/window.blp:225 data/ui/window.blp:235
 msgid "Add Action"
-msgstr "Legg til handling"
+msgstr ""
 
 #: data/ui/window.blp:245
 msgid "No actions"
-msgstr "Ingen handlinger"
+msgstr ""
 
 #: data/ui/window.blp:246
 msgid "Add an action to this .desktop file"
-msgstr "Legg til en handling i denne .desktop-filen"
+msgstr ""
 
 #: data/ui/window.blp:253
 msgid "Only show in"
-msgstr "Vis kun inn"
+msgstr ""
 
 #: data/ui/window.blp:257 data/ui/window.blp:267 data/ui/window.blp:289
 #: data/ui/window.blp:299
 msgid "Add Desktop Environment"
-msgstr "Legg til skrivebordsmiljø"
+msgstr ""
 
 #: data/ui/window.blp:277 data/ui/window.blp:309
 msgid "No desktop environments"
-msgstr "Ingen skrivebordsmiljøer"
+msgstr ""
 
 #: data/ui/window.blp:278 data/ui/window.blp:310
 msgid "Add a DE to this .desktop file"
-msgstr "Legg til en DE i denne .desktop-filen"
+msgstr ""
 
 #: data/ui/window.blp:285
 msgid "Not show in"
-msgstr "Vises ikke inn"
+msgstr ""
 
 #: data/ui/window.blp:317
 msgid "Mimetypes"
-msgstr "Mimetyper"
+msgstr ""
 
 #: data/ui/window.blp:321 data/ui/window.blp:331
 msgid "Add Mimetypes"
-msgstr "Legg til mimetyper"
+msgstr ""
 
 #: data/ui/window.blp:341
 msgid "No mimetypes"
-msgstr "Ingen mimetyper"
+msgstr ""
 
 #: data/ui/window.blp:342
 msgid "Add a mimetype to this .desktop file"
-msgstr "Legg til en mimetype i denne .desktop-filen"
+msgstr ""
 
 #: data/ui/window.blp:349
 msgid "Keywords"
-msgstr "Nøkkelord"
+msgstr ""
 
 #: data/ui/window.blp:353 data/ui/window.blp:363
 msgid "Add Keywords"
-msgstr "Legg til flere søkeord"
+msgstr ""
 
 #: data/ui/window.blp:373
 msgid "No keywords"
-msgstr "Ingen nøkkelord"
+msgstr ""
 
 #: data/ui/window.blp:374
 msgid "Add a keyword to this .desktop file"
-msgstr "Legg til et nøkkelord i denne .desktop-filen"
+msgstr ""
 
 #: data/ui/window.blp:381
 msgid "D-Bus interfaces implemented"
-msgstr "D-Bus-grensesnitt implementert"
+msgstr ""
 
 #: data/ui/window.blp:385 data/ui/window.blp:395
 msgid "Add Interface"
-msgstr "Legg til grensesnitt"
+msgstr ""
 
 #: data/ui/window.blp:405
 msgid "No interfaces"
-msgstr "Ingen grensesnitt"
+msgstr ""
 
 #: data/ui/window.blp:406
 msgid "Add an interface to this .desktop file"
-msgstr "Legg til et grensesnitt til denne .desktop-filen"
+msgstr ""
 
 #: data/ui/window.blp:419
 msgid "Preview"
-msgstr "Forhåndsvisning"
+msgstr ""
 
 #: data/ui/window.blp:427
 msgid "Browse"
-msgstr "Bla gjennom"
+msgstr ""
 
 #: data/ui/window.blp:447
 msgid "Preferences"
-msgstr "Innstillinger"
+msgstr ""
 
 #: data/ui/window.blp:451
 msgid "Keyboard Shortcuts"
-msgstr "Hurtigtaster"
+msgstr ""
 
 #: data/ui/window.blp:455
 msgid "About Desktop Creator"
-msgstr "Om Desktop Creator"
+msgstr ""
 
 #: ariane/main.py:134
 msgid "Ariane Team"
-msgstr "Ariane-teamet"
+msgstr ""
