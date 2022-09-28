@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist gettext-domain="ariane">
-	<schema id="com.github.ArianeTeam.Ariane" path="/com/github/ArianeTeam/Ariane/">
+	<schema id="@APP_ID@" path="/com/github/ArianeTeam/Ariane/">
 		<key name="window-width" type="i">
 			<default>1000</default>
 		</key>

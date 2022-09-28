@@ -114,7 +114,7 @@ class ArianeApplication(Adw.Application):
                                    fullscreened=self.settings.get_boolean(
                                        "window-fullscreen"),
                                    maximized=self.settings.get_boolean("window-maximized"),)
-        win.present()
+            self.win.present()
         if version != self.last_opened_version:
             welcome = WelcomeWindow(self.win, update=True)
             welcome.present()
