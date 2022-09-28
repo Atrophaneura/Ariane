@@ -50,27 +50,28 @@ template WelcomeWindow: Adw.Window {
                         margin-start: 10;
                         margin-end: 10;
 
-                        Gtk.Box {
-                            orientation: vertical;
-                            vexpand: true;
-                            hexpand: true;
+                        // Gtk.Box {
+                        //     orientation: vertical;
+                        //     vexpand: true;
+                        //     hexpand: true;
 
-                            Gtk.Image img_welcome {
-                                resource: "/com/github/ArianeTeam/Ariane/icons/scalable/apps/com.github.ArianeTeam.Ariane.svg";
-                                pixel-size: 256;
-                            }
+                            // Gtk.Image img_welcome {
+                            //     resource: "/com/github/ArianeTeam/Ariane/icons/scalable/apps/com.github.ArianeTeam.Ariane.svg";
+                            //     pixel-size: 256;
+                            // }
 
-                            Adw.StatusPage page_welcome {
-                                title: _("Welcome to Ariane");
-                                description: _("Create and explore .desktop files with ease");
-                            }
-
+                        Adw.StatusPage page_welcome {
+                            icon-name: "com.github.ArianeTeam.Ariane";
+                            title: _("Welcome to Ariane");
+                            description: _("Create and explore .desktop files with ease");
                         }
+
+                        // }
 
                         Adw.StatusPage page_release {
                             icon-name: "software-update-available-symbolic";
                             title: _("What's new in this release?");
-                            description: _("Ariane 0.1.0 is the first release of Ariane, a new desktop application to create and explore .desktop files with ease.");
+                            description: _("This is the first release of Ariane, a new desktop application to create and explore .desktop files with ease.");
                         }
 
                         Adw.StatusPage page_ariane {
