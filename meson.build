@@ -48,8 +48,7 @@ if not PY_INSTALLDIR.found()
 endif
 
 PKGDATA_DIR = join_paths(get_option('prefix'), get_option('datadir'), meson.project_name())
-MODULE_DIR = join_paths(PKGDATA_DIR, 'gradience')
-PLUGINS_DIR = join_paths(PKGDATA_DIR, 'gradience', 'plugins')
+MODULE_DIR = join_paths(PKGDATA_DIR, 'ariane')
 
 # Install configuration data
 conf = configuration_data()
