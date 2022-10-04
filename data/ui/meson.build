@@ -4,6 +4,8 @@ blueprints = custom_target('blueprints',
     'welcome.blp',
     'help-overlay.blp',
     'show_row.blp',
+    'app_page.blp',
+    'add_row.blp',
   ),
   output: '.',
   command: [find_program('blueprint-compiler'), 'batch-compile', '@OUTPUT@', '@CURRENT_SOURCE_DIR@', '@INPUT@']

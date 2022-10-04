@@ -1,0 +1,45 @@
+using Gtk 4.0;
+using Adw 1;
+
+template ArianeAddRow: Adw.ActionRow {
+    title: _("No [something]");
+    subtitle: _("Add [something]");
+
+    [action]
+    Stack value_stack {
+        valign: center;
+        hhomogeneous: false;
+        interpolate-size: true;
+        transition-type: crossfade;
+
+        Button apply_button {
+            valign: center;
+            icon-name: "checkmark-large-symbolic";
+            tooltip-text: _("Add [something]");
+            clicked => on_add_button_clicked();
+            styles [
+                "flat",
+            ]
+        }
+
+        Entry value {
+            text: "[something]";
+            changed => on_value_changed();
+        }
+    }
+
+    [action]
+    ToggleButton entry_toggle {
+        valign: center;
+        icon-name: "list-add-symbolic";
+        tooltip-text: _("Add [something]");
+        toggled => on_entry_toggled();
+        styles [
+            "flat",
+        ]
+    }
+
+
+    
+    
+}
