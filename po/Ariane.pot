@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-04 12:36+0000\n"
+"POT-Creation-Date: 2022-10-05 01:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,222 +41,23 @@ msgstr ""
 msgid "Edit"
 msgstr ""
 
-#: data/ui/window.blp:57
-msgid "Applications Details"
-msgstr ""
-
-#: data/ui/window.blp:60
-msgid "Type"
-msgstr ""
-
-#: data/ui/window.blp:63
-msgid "Application"
-msgstr ""
-
-#: data/ui/window.blp:63
-msgid "Link"
-msgstr ""
-
-#: data/ui/window.blp:63
-msgid "Directory"
-msgstr ""
-
-#: data/ui/window.blp:68
-msgid "Generic Name"
-msgstr ""
-
-#: data/ui/window.blp:75
-msgid "Name"
-msgstr ""
-
-#: data/ui/window.blp:85
-msgid "Comment"
-msgstr ""
-
-#: data/ui/window.blp:93
-msgid "Icon"
-msgstr ""
-
-#: data/ui/window.blp:103
-msgid "Exececution"
-msgstr ""
-
-#: data/ui/window.blp:105
-msgid "Exec"
-msgstr ""
-
-#: data/ui/window.blp:111
-msgid "Try Exec"
-msgstr ""
-
-#: data/ui/window.blp:117
-msgid "Working Dir"
-msgstr ""
-
-#: data/ui/window.blp:126
-msgid "Options"
-msgstr ""
-
-#: data/ui/window.blp:128
-msgid "Hidden"
-msgstr ""
-
-#: data/ui/window.blp:129
-msgid "Don't show this .desktop file in the launcher"
-msgstr ""
-
-#: data/ui/window.blp:140
-msgid "Run in terminal"
-msgstr ""
-
-#: data/ui/window.blp:141
-msgid "Run this .desktop file in a terminal"
-msgstr ""
-
-#: data/ui/window.blp:152
-msgid "Use startup notification"
-msgstr ""
-
-#: data/ui/window.blp:153
-msgid "Show a notification when this app is launched"
-msgstr ""
-
-#: data/ui/window.blp:164
-msgid "Hide from menus"
-msgstr ""
-
-#: data/ui/window.blp:165
-msgid "Don't show this .desktop file in menus"
-msgstr ""
-
-#: data/ui/window.blp:176
-msgid "DBusActivatable"
-msgstr ""
-
-#: data/ui/window.blp:177
-msgid ""
-"A boolean value specifying if D-Bus activation is supported for this "
-"application"
-msgstr ""
-
-#: data/ui/window.blp:189
-msgid "Categories"
-msgstr ""
-
-#: data/ui/window.blp:193 data/ui/window.blp:203
-msgid "Add Category"
-msgstr ""
-
-#: data/ui/window.blp:213
-msgid "No categories"
-msgstr ""
-
-#: data/ui/window.blp:214
-msgid "Add a category to this .desktop file"
-msgstr ""
-
-#: data/ui/window.blp:221
-msgid "Actions"
-msgstr ""
-
-#: data/ui/window.blp:225 data/ui/window.blp:235
-msgid "Add Action"
-msgstr ""
-
-#: data/ui/window.blp:245
-msgid "No actions"
-msgstr ""
-
-#: data/ui/window.blp:246
-msgid "Add an action to this .desktop file"
-msgstr ""
-
-#: data/ui/window.blp:253
-msgid "Only show in"
-msgstr ""
-
-#: data/ui/window.blp:257 data/ui/window.blp:267 data/ui/window.blp:289
-#: data/ui/window.blp:299
-msgid "Add Desktop Environment"
-msgstr ""
-
-#: data/ui/window.blp:277 data/ui/window.blp:309
-msgid "No desktop environments"
-msgstr ""
-
-#: data/ui/window.blp:278 data/ui/window.blp:310
-msgid "Add a DE to this .desktop file"
-msgstr ""
-
-#: data/ui/window.blp:285
-msgid "Not show in"
-msgstr ""
-
-#: data/ui/window.blp:317
-msgid "Mimetypes"
-msgstr ""
-
-#: data/ui/window.blp:321 data/ui/window.blp:331
-msgid "Add Mimetypes"
-msgstr ""
-
-#: data/ui/window.blp:341
-msgid "No mimetypes"
-msgstr ""
-
-#: data/ui/window.blp:342
-msgid "Add a mimetype to this .desktop file"
-msgstr ""
-
-#: data/ui/window.blp:349
-msgid "Keywords"
-msgstr ""
-
-#: data/ui/window.blp:353 data/ui/window.blp:363
-msgid "Add Keywords"
-msgstr ""
-
-#: data/ui/window.blp:373
-msgid "No keywords"
-msgstr ""
-
-#: data/ui/window.blp:374
-msgid "Add a keyword to this .desktop file"
-msgstr ""
-
-#: data/ui/window.blp:381
-msgid "D-Bus interfaces implemented"
-msgstr ""
-
-#: data/ui/window.blp:385 data/ui/window.blp:395
-msgid "Add Interface"
-msgstr ""
-
-#: data/ui/window.blp:405
-msgid "No interfaces"
-msgstr ""
-
-#: data/ui/window.blp:406
-msgid "Add an interface to this .desktop file"
-msgstr ""
-
-#: data/ui/window.blp:419
+#: data/ui/window.blp:58
 msgid "Preview"
 msgstr ""
 
-#: data/ui/window.blp:427
+#: data/ui/window.blp:66
 msgid "Browse"
 msgstr ""
 
-#: data/ui/window.blp:447
+#: data/ui/window.blp:86
 msgid "Preferences"
 msgstr ""
 
-#: data/ui/window.blp:451
+#: data/ui/window.blp:90
 msgid "Keyboard Shortcuts"
 msgstr ""
 
-#: data/ui/window.blp:455
+#: data/ui/window.blp:94
 msgid "About Desktop Creator"
 msgstr ""
 
