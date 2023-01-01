@@ -1,14 +1,14 @@
 # Desktop Creator POT file
-# Copyright (C) 2022 Desktop Creator Team
+# Copyright (C) 2023 Desktop Creator Team
 # This file is distributed under the GNU GPLv3 license.
-# Ariane Team, 2022.
+# Ariane Team, 2023.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-31 12:20+0000\n"
+"POT-Creation-Date: 2023-01-01 01:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
